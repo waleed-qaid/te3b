@@ -47,25 +47,25 @@ setInterval(function () {
     if (myroom == '180b31492f9x922d0131xn7fcg1') {
         if (room_set == false) {
             room_set = true;
-			$('#d2 div.fitimg').addClass('one_2');
-			$('#d2 div.uzr').addClass('one_3');
-			$('#users div.inroom').addClass('one_4');
-			$('#users div.inroom img.ustat').addClass('one_5');
-			$('#users div.inroom .fitimg.u-pic').addClass('one_6');
-			$('#users div.inroom .mini.u-msg').addClass('one_7');
-			$('#users div.inroom span.uhash').addClass('one_8');
+            $('#d2 div.inroom .fitimg').addClass('one_2');
+            $('#d2 div.inroom .uzr').addClass('one_3');
+            $('#users div.inroom').addClass('one_4');
+            $('#users div.inroom img.ustat').addClass('one_5');
+            $('#users div.inroom .fitimg.u-pic').addClass('one_6');
+            $('#users div.inroom .mini.u-msg').addClass('one_7');
+            $('#users div.inroom span.uhash').addClass('one_8');
             $('#users div.inroom img.co').addClass('one_9');
         }
     } else {
         if (room_set == true) {
             room_set = false;
-			$('#d2 div.fitimg').removeClass('one_2');
-			$('#d2 div.uzr').removeClass('one_3');
-			$('#users div.inroom').removeClass('one_4');
-			$('#users div.inroom img.ustat').removeClass('one_5');
-			$('#users div.inroom .fitimg.u-pic').removeClass('one_6');
-			$('#users div.inroom .mini.u-msg').removeClass('one_7');
-			$('#users div.inroom span.uhash').removeClass('one_8');
+            $('#d2 div.inroom .fitimg').removeClass('one_2');
+            $('#d2 div.inroom .uzr').removeClass('one_3');
+            $('#users div.inroom').removeClass('one_4');
+            $('#users div.inroom img.ustat').removeClass('one_5');
+            $('#users div.inroom .fitimg.u-pic').removeClass('one_6');
+            $('#users div.inroom .mini.u-msg').removeClass('one_7');
+            $('#users div.inroom span.uhash').removeClass('one_8');
             $('#users div.inroom img.co').removeClass('one_9'); 
         } 
     } 
