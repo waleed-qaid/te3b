@@ -1,4 +1,5 @@
 
+$("style").last().append(`
     .one_4 {background-image: linear-gradient(-225deg, #0000 0%, #0000 29%, #a6a6a629 67%, #fff 100%);
     border-radius: 5px;
     border: 1px solid #fffefe;
