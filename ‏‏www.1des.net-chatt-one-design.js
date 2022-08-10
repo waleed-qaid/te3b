@@ -1,17 +1,4 @@
 
-$("style").last().append(`
-    .one_2 {border: 1px solid white;
-    margin-top: 2px;
-    border-radius: 5px;
-    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.08), 0 0px 2px #ff0060;
-    }
-    .one_3 {background-image: linear-gradient(-225deg, #0000 0%, #0000 29%, #a6a6a629 67%, #fff 100%);
-    border-radius: 5px;
-    border: 1px solid #fffefe;
-      border-bottom-color: rgb(255, 254, 254);
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
-    }
     .one_4 {background-image: linear-gradient(-225deg, #0000 0%, #0000 29%, #a6a6a629 67%, #fff 100%);
     border-radius: 5px;
     border: 1px solid #fffefe;
@@ -51,8 +38,6 @@ setInterval(function () {
     if (myroom == '180b31492f9x922d0131xn7fcg1') {
         if (room_set == false) {
             room_set = true;
-			$('#d2 div.inroom .fitimg.u-pic.borderg').addClass('one_2');
-			$('#d2 div.inroom .uzr.d-flex.mm').addClass('one_3');
 			$('#users div.inroom').addClass('one_4');
 			$('#users div.inroom img.ustat').addClass('one_5');
 			$('#users div.inroom .fitimg.u-pic').addClass('one_6');
@@ -63,8 +48,6 @@ setInterval(function () {
     } else {
         if (room_set == true) {
             room_set = false;
-			$('#d2 div.inroom .fitimg.u-pic.borderg').removeClass('one_2');
-			$('#d2 div.inroom .uzr.d-flex.mm').removeClass('one_3');
 			$('#users div.inroom').removeClass('one_4');
 			$('#users div.inroom img.ustat').removeClass('one_5');
 			$('#users div.inroom .fitimg.u-pic').removeClass('one_6');
