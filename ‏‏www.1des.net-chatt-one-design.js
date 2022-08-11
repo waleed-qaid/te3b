@@ -49,7 +49,6 @@ $("style").last().append(`
 border-radius: 5px;
 box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.08), 0 0px 5px #ff0f52;
 background-color: #F0F0F0;
-background-image: url(https://j.top4top.io/p_2311upben1.gif);
     }`);
 var room_set = false;
 setInterval(function () {
