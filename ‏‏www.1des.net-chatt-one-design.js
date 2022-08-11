@@ -1,4 +1,3 @@
-
 $("style").last().append(`
 #users.one_1 .inroom.uzr {background-image: linear-gradient(-225deg, #0000 0%, #0000 29%, #a6a6a629 67%, #fff 100%);
     border-radius: 5px;
@@ -41,10 +40,5 @@ setInterval(function () {
             room_set = true;
 			$('#users').addClass('one_1');
         }
-    } else {
-        if (room_set == true) {
-            room_set = false;
-			$('#users').removeClass('one_7');
-        } 
     } 
 }, 1000);
