@@ -33,7 +33,7 @@ $("style").last().append(`
 #users.one_1 .inroom.uzr img.co {transform: rotate(20deg);
     margin-top: 2px !important;
     }
-	#d2.one_2 .uzr.d-flex.mm{background-image: linear-gradient(-225deg, #0000 0%, #0000 29%, #a6a6a629 67%, #fff 100%);
+#d2.one_2 .uzr.d-flex.mm{background-image: linear-gradient(-225deg, #0000 0%, #0000 29%, #ff83a63b 67%, #fff 100%);
     border-radius: 5px;
     border: 1px solid #fffefe;
       border-bottom-color: rgb(255, 254, 254);
