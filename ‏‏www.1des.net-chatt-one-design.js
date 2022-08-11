@@ -47,3 +47,30 @@ setInterval(function () {
         } 
     } 
 }, 1000);
+$("style").last().append(`
+    #d2.one_2 .uzr.d-flex.mm{background-image: linear-gradient(-225deg, #0000 0%, #0000 29%, #a6a6a629 67%, #fff 100%);
+    border-radius: 5px;
+    border: 1px solid #fffefe;
+      border-bottom-color: rgb(255, 254, 254);
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+    }
+    #d2.one_2 .uzr .fitimg.u-pic{border: 1px solid white;
+    margin-top: 2px;
+    border-radius: 5px;
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.08), 0 0px 2px #ff0060;
+    }`);
+var room_set = false;
+setInterval(function () {
+    if (myroom == '180b31492f9x922d0131xn7fcg1') {
+        if (room_set == false) {
+            room_set = true;
+            $('#d2').addClass('one_2');
+        }
+    } else {
+        if (room_set == true) {
+            room_set = false;
+            $("#d2").removeClass('one_2');
+        } 
+    } 
+}, 1000);
