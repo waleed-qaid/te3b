@@ -40,24 +40,31 @@ $("style").last().append(`
       border-bottom-style: solid;
       border-bottom-width: 1px;
     }
-    #d2.one_2 .uzr .fitimg.u-pic{border: 1px solid white;
+#d2.one_2 .uzr .fitimg.u-pic{border: 1px solid white;
     margin-top: 2px;
     border-radius: 5px;
     box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.08), 0 0px 2px #ff0060;
+    }
+#mic.one_3 .mic{margin-top: 0px;
+border-radius: 5px;
+box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.08), 0 0px 4px #ff0060;
+background-color: #F0F0F0;
     }`);
 var room_set = false;
 setInterval(function () {
     if (myroom == '180b31492f9x922d0131xn7fcg1') {
         if (room_set == false) {
             room_set = true;
-	    $('#users').addClass('one_1');
-	    $('#d2').addClass('one_2');
+			$('#users').addClass('one_1');
+			$('#d2').addClass('one_2');
+			$('#mic').addClass('one_3');
         }
     } else {
         if (room_set == true) {
             room_set = false;
             $("#users").removeClass('one_1');
-	    $("#d2").removeClass('one_2');
+			$("#d2").removeClass('one_2');
+			$('#mic').removeClass('one_3');
         } 
     } 
 }, 1000);
