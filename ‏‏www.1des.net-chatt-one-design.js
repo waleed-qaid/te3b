@@ -1,3 +1,4 @@
+
 $("style").last().append(`
 #users.one_1 .inroom.uzr {background-image: linear-gradient(-225deg, #0000 0%, #0000 29%, #a6a6a629 67%, #fff 100%);
     border-radius: 5px;
@@ -35,7 +36,7 @@ $("style").last().append(`
     }`);
 var room_set = false;
 setInterval(function () {
-    if (myroom == '18287f41f1dxa01b60e6xdn9dg8') {
+    if (myroom == '180b31492f9x922d0131xn7fcg1') {
         if (room_set == false) {
             room_set = true;
 			$('#users').addClass('one_1');
