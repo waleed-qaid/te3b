@@ -40,5 +40,11 @@ setInterval(function () {
             room_set = true;
 			$('#users').addClass('one_1');
         }
+    } else {
+        if (room_set == true) {
+            room_set = false;
+            $("#users").removeClass('one_1');
+        } 
     } 
+}, 1000)
 }, 1000);
