@@ -46,5 +46,4 @@ setInterval(function () {
             $("#users").removeClass('one_1');
         } 
     } 
-}, 1000)
 }, 1000);
