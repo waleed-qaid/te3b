@@ -43,4 +43,4 @@ setInterval(function () {
 		$("#mic4").removeClass('kbar8');
         } 
     } 
-}, 1000)
+}, 500)
