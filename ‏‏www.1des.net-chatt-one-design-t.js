@@ -67,3 +67,43 @@ $(`<style>
                                 var r_mlok=false;setInterval(function (){if (myroom=='17ef32d2603xebed46b3-xfg0v0d'){if (r_mlok==false){r_mlok=true;$('#users').addClass('mlok1');$('#d2').addClass('mlok2');$('#mic').addClass('mlok3')}}else{if (r_mlok==true){r_mlok=false;$("#users").removeClass('mlok1');$("#d2").removeClass('mlok2');$('#mic').removeClass('mlok3')}}},10);
 								
 								
+$(`<style>
+.onim1 {
+	width: 18px;
+	margin-left: -315px;
+	margin-top: 31px;
+	cursor: pointer;
+}
+.onimg {
+  float: right;
+  margin-right: 7px;
+  margin-top: 1px;
+  width: 28px;
+  cursor: pointer;
+}
+.onimg1 {
+  float: right;
+  width: 16px;
+  margin-top: -2px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+.onimg2 {
+  float: right;
+  width: 18px;
+  margin-top: 2px;
+  margin-right: 5px;
+  cursor: pointer;
+}</style>`).insertBefore('body');
+$("#users .uzr span.u-topic:contains('تجربة')").after('<img id="mystory" class="onimg2" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
+$("#users .uzr span.u-topic:contains('تجربة')").after('<img id="mydrink" class="onimg1" title="مشروبي" src="https://i.ibb.co/7kBXh0N/image.png">');
+$("#users .uzr span.u-topic:contains('تجربة')").after('<img id="mymood" class="onimg" title="مزاجي" src="https://i.ibb.co/VwRnB8H/1.png">'); 
+$("#upro").before('<div id="movon" onclick="$(this).hide().html(``);" class="moveon" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">'); 
+$("div#users .uzr:contains(تجربة)").append('<img class="onim1" src="https://c.top4top.io/p_243088vji1.gif">');
+$("div#users .uzr:contains(تجربة) .onim1").click(function(){
+    $("#movon").show();
+    $("#movon").html('<iframe id="lhdh" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/R-GGXJcRNFw" allowfullscreen="" width="338" height="599" frameborder="0"></iframe>');
+    $("#lhdh").show(function(){
+          $("#upro").modal("hide");
+    } ); 
+}); 
