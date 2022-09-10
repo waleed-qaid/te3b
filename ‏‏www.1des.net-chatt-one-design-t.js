@@ -195,7 +195,9 @@ $("style").last().append(`
 
 `);
 
-
+var l_itv=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itv);
         $('#users .uzr:contains(*90+)').addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mymood" class="My_mood" title="مزاجي" src="https://d.top4top.io/p_244319s626.png">'); 
@@ -223,5 +225,7 @@ $("style").last().append(`
         
        $("#ifr_mov").show(function(){
         $("#upro").modal("hide");    } ); 
+    } ); 
 });
-
+    }
+}, 1000);
