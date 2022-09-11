@@ -1,4 +1,4 @@
-$.getScript("https://raw.githack.com/waleed-qaid/te3b/main/1des.net-one.js");
+
 $(`<style>.nosel.d-flex.room.r17ef32d2603xebed46b3-xfg0v0d .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
   letter-spacing: 1px;
   -webkit-text-fill-color: #000;
@@ -63,6 +63,8 @@ $(`<style>
                                 border:1px solid #fffefe;
                                 border-bottom:1px solid #fffefe}`);
                                 
-                                var r_mlok=false;setInterval(function (){if (myroom=='17ef32d2603xebed46b3-xfg0v0d'){if (r_mlok==false){r_mlok=true;$('#users').addClass('mlok1');$('#d2').addClass('mlok2');$('#mic').addClass('mlok3')}}else{if (r_mlok==true){r_mlok=false;$("#users").removeClass('mlok1');$("#d2").removeClass('mlok2');$('#mic').removeClass('mlok3')}}},10);
+                                var r_mlok=false;setInterval(function (){if (myroom=='17ef32d2603xebed46b3-xfg0v0d'){if (r_mlok==false){r_mlok=true;$('#users').addClass('mlok1');$('#d2').addClass('mlok2');$('#mic').addClass('mlok3')}}else{if (r_mlok==true){r_mlok=false;$("#users").removeClass('mlok1');$("#d2").removeClass('mlok2');$('#mic').removeClass('mlok3')}}}, 10),
+					
+					$.getScript("https://raw.githack.com/waleed-qaid/te3b/main/1des.net-one.js");
 								
 			
