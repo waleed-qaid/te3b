@@ -1,30 +1,120 @@
-﻿$(`<style>#mic.room3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #e34385 0%, #000000 29%, #ff75a2 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
-	to {
-		--angle: 360deg;
-	}
-}
-@property --angle {
-	syntax: "<angle>";
-	initial-value: 0deg;
-	inherits: false;
-}</style>`).insertBefore('body');
 $("style").last().append(`
-#users.room1 .inroom.uzr{background-image:linear-gradient(-225deg,#0000 0,#0000 29%,#a6a6a629 67%,#fff 100%);border-radius:5px;border:1px solid #fffefe;border-bottom:1px solid #fffefe}#users.room1 .inroom.uzr img.ustat{width:10px!important;height:10px;border-radius:50%}#d2.room2 .uzr .fitimg.u-pic,#users.room1 .inroom.uzr .fitimg.u-pic{border:1px solid #fff;margin-top:2px;border-radius:5px;box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff0060}#users.room1 .inroom.uzr .u-msg{text-align:center;background-image:-webkit-linear-gradient(75deg,rgb(0 0 0 / 53%) 25%,#ff0066ab 25%,#000 50%,#c90051b8 50%,#ff006600 75%);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:#0000}#users.room1 .inroom.uzr span.uhash{text-transform:uppercase;background-image:linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#ff1361 67%,#3600ff 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}#users.room1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}#d2.room2 .uzr.d-flex.mm{background-image:linear-gradient(-225deg,#0000 0,#0000 29%,#ff00780d 67%,#d7d7d7 100%);border-radius:5px;border:1px solid #fffefe;border-bottom:1px solid #fffefe}`);
-var room_set = false;
-setInterval(function () {
-    if (myroom == '180b31492f9x922d0131xn7fcg1') {
-        if (room_set == false) {
-            room_set = true;
-			$('#users').addClass('room1');
-			$('#d2').addClass('room2');
-			$('#mic').addClass('room3');
-        }
-    } else {
-        if (room_set == true) {
-            room_set = false;
-                        $("#users").removeClass('room1');
-			$("#d2").removeClass('room2');
-			$('#mic').removeClass('room3');
-        } 
-    } 
-}, 1000);
+
+#users .uzr.stl1 .fitimg.u-pic {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 3px #797979;
+  margin-top: 0px;
+}
+
+#users .uzr.stl1 .u-msg {
+  text-align: center;
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  background-image: linear-gradient(-225deg,#a8a8a8 0%,#939393 29%,#f00 67%,#8e8e8e 100%);
+  padding: 0px !important;
+  font-size: 89% !important;
+}
+
+#users .uzr.stl1 span.uhash {
+  margin-right: 324px;
+  margin-top: 24px;
+  margin-left: 0px;
+}
+
+#users .uzr.stl1 img.co {
+  transform: rotate(90deg);
+  margin-top: -60px !important;
+  margin-right: 282px;
+}
+
+
+#users .uzr.stl1 {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-image: url("https://i.ibb.co/Jc8J25V/image.png");
+  background-size: cover;
+  border: 1px solid #fff;
+}
+
+#users .uzr.stl1 .c-flex.fr {
+  margin-left: -4px!important;
+  float: left;
+}
+
+#users .uzr.stl1 .d-flex.fl {
+  padding-right: 0px !important;
+}
+
+#users .uzr.stl1 .u-topic {
+  margin-left: 5px;
+}
+
+#users .uzr.stl1 .My_star {
+  width: 18px;
+  margin-top: -20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#users .uzr.stl1 .My_mood {
+  float: right;
+  margin-right: 7px;
+  margin-top: 1px;
+  width: 29px;
+  cursor: pointer;
+}
+#users .uzr.stl1 .my_drink {
+  float: right;
+  width: 20px;
+  margin-top: -1.5px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+#users .uzr.stl1 .My_vedio {
+  float: right;
+  width: 20px;
+  margin-top: 1px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+`);
+
+var l_itv=setInterval(function(){
+    if(myid!=null){
+        clearInterval(l_itv);
+        $("#users .uzr:contains('*90+')").addClass('stl1');
+        $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
+        $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mymood" class="My_mood" title="مزاجي" src="https://d.top4top.io/p_244319s626.png">'); 
+        $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mydrink" class="my_drink" title="مشروبي" src="https://c.top4top.io/p_2443hmu6o9.png">');
+        $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mystory" class="My_vedio" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
+    
+        $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
+
+
+        $("#upro").before('<div id="movon" onclick="$(this).hide().html(``);" class="moveon" style="display:none;width:100%;height:100%;z-index:999999;position: fixed;left: 0px;top: 0px;background-color: rgba(0, 0, 0, 0.6);">'); 
+        
+        
+        
+        $("div#users .uzr:contains('*90+') .My_vedio").click(function(){
+        $("#movon").show();
+        
+        $('#movon').addClass('stl1');
+        $("#movon").before('<div class="modal-dialog fr break" style="height: 338px;min-height: 599px;overflow: visible;margin-top:40px;"></div>');
+        
+        
+        $("#movon").append('<div style="color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
+          
+		  
+        $("#movon").append('<iframe id="ifr_mov" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/A4m7ivdRB0U" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
+        
+       $("#ifr_mov").show(function(){
+        $("#upro").modal("hide");
+    } ); 
+});
+    }
+}, 5000);
