@@ -344,7 +344,7 @@ var l_itv2=setInterval(function(){
         $("#movon").append('<div style="color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
           
 		  
-        $("#movon").append('<iframe id="ifr_mov2" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/BuL8DgX20M0" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
+        $("#movon").append('<iframe id="ifr_mov2" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/3sXNkHgOrfU" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
         
        $("#ifr_mov2").show(function(){
         $("#upro").modal("hide");
