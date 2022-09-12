@@ -57,9 +57,9 @@ $("style").last().append(`
 
 #users .uzr.stl1 .My_star {
 width: 18px;
-margin-top: -18px;
+margin-top: -19px;
 cursor: pointer;
-margin-left: 8px;
+margin-left: 9px;
 }
 
 #users .uzr.stl1 .My_mood {
