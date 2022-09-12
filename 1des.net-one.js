@@ -56,10 +56,10 @@ $("style").last().append(`
 }
 
 #users .uzr.stl1 .My_star {
-  width: 18px;
-  margin-top: -48px;
-  cursor: pointer;
-  margin-left: 6px;
+width: 18px;
+margin-top: -18px;
+cursor: pointer;
+margin-left: 8px;
 }
 
 #users .uzr.stl1 .My_mood {
@@ -90,7 +90,7 @@ var l_itv=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itv);
         $("#users .uzr:contains('*90+')").addClass('stl1');
-        $("#users .uzr.stl1:contains('*90+')").append('<img class="My_star" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
+        $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mymood" class="My_mood" title="مزاجي" src="https://d.top4top.io/p_244319s626.png">'); 
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mydrink" class="my_drink" title="مشروبي" src="https://c.top4top.io/p_2443hmu6o9.png">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mystory" class="My_vedio" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
@@ -178,10 +178,10 @@ $("style").last().append(`
 }
 
 #users .uzr.stl2 .My_star1 {
-  width: 18px;
-  margin-top: -48px;
-  cursor: pointer;
-  margin-left: 6px;
+width: 18px;
+margin-top: -18px;
+cursor: pointer;
+margin-left: 8px;
 }
 
 #users .uzr.stl2 .My_mood1 {
@@ -212,7 +212,7 @@ var l_itv1=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itv1);
         $('#users .uzr:contains(عبدالله نت)').addClass('stl2');
-        $("#users .uzr.stl2:contains('عبدالله نت')").append('<img class="My_star1" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
+        $("#users .uzr.stl2 .c-flex.fr").append('<img class="My_star1" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
         $("#users .uzr span.u-topic:contains('عبدالله نت')").after('<img id="mymood" class="My_mood1" title="مزاجي" src="https://i.ibb.co/VwRnB8H/1.png">'); 
         $("#users .uzr span.u-topic:contains('عبدالله نت')").after('<img id="mydrink" class="my_drink1" title="مشروبي" src="https://cdn-icons-png.flaticon.com/512/2465/2465580.png">');
         $("#users .uzr span.u-topic:contains('عبدالله نت')").after('<img id="mystory" class="My_vedio1" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
