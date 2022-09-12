@@ -214,7 +214,7 @@ var l_itv1=setInterval(function(){
         $('#users .uzr:contains(عبدالله نت)').addClass('stl2');
         $("#users .uzr.stl2 .c-flex.fr").append('<img class="My_star1" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
         $("#users .uzr span.u-topic:contains('عبدالله نت')").after('<img id="mymood" class="My_mood1" title="مزاجي" src="https://i.ibb.co/VwRnB8H/1.png">'); 
-        $("#users .uzr span.u-topic:contains('عبدالله نت')").after('<img id="mydrink" class="my_drink1" title="مشروبي" src="https://cdn-icons-png.flaticon.com/512/2465/2465580.png">');
+        $("#users .uzr span.u-topic:contains('عبدالله نت')").after('<img id="mydrink" class="my_drink1" title="مشروبي" src="https://i.top4top.io/p_24439xccd3.png">');
         $("#users .uzr span.u-topic:contains('عبدالله نت')").after('<img id="mystory" class="My_vedio1" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
     
         $("#users .uzr.stl2 span.uhash, #users .uzr.stl2 img.co").hide(); 
