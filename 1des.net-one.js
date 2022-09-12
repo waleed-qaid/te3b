@@ -90,9 +90,9 @@ var l_itv=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itv);
         $("#users .uzr:contains('*90+')").addClass('stl1');
-        $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
+        $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://h.top4top.io/p_2442c44gj5.png">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mymood" class="My_mood" title="مزاجي" src="https://d.top4top.io/p_244319s626.png">'); 
-        $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mydrink" class="my_drink" title="مشروبي" src="https://c.top4top.io/p_2443hmu6o9.png">');
+        $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mydrink" class="my_drink" title="مشروبي" src="https://b.top4top.io/p_2443ychql8.png">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mystory" class="My_vedio" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
     
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
@@ -112,7 +112,7 @@ var l_itv=setInterval(function(){
         $("#movon").append('<div style="color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
           
 		  
-        $("#movon").append('<iframe id="ifr_mov" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/A4m7ivdRB0U" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
+        $("#movon").append('<iframe id="ifr_mov" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/0bRgLJCxiJI" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
         
        $("#ifr_mov").show(function(){
         $("#upro").modal("hide");
@@ -234,7 +234,7 @@ var l_itv1=setInterval(function(){
         $("#movon").append('<div style="color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
           
 		  
-        $("#movon").append('<iframe id="lhdh1" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/DmkZf84C-5A" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
+        $("#movon").append('<iframe id="lhdh1" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/kMaAf48iPlA" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
         
        $("#lhdh1").show(function(){
         $("#upro").modal("hide");
