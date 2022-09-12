@@ -37,7 +37,7 @@ $("style").last().append(`
   margin-bottom: 3px !important;
   margin-top: 2px !important;
   border-radius: 4px;
-  background-image: url("https://i.ibb.co/Jc8J25V/image.png");
+  background-image: url("https://i.ibb.co/pyd0xbx/image.png");
   background-size: cover;
   border: 1px solid #fff;
 }
@@ -159,7 +159,7 @@ $("style").last().append(`
   margin-bottom: 3px !important;
   margin-top: 2px !important;
   border-radius: 4px;
-  background-image: url("https://i.ibb.co/Jc8J25V/image.png");
+  background-image: url("https://i.ibb.co/CMDPvMB/1.png");
   background-size: cover;
   border: 1px solid #fff;
 }
