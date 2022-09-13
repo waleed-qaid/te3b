@@ -109,10 +109,10 @@ var l_itv=setInterval(function(){
         $("#movon").before('<div class="modal-dialog fr break" style="height: 338px;min-height: 599px;overflow: visible;margin-top:40px;"></div>');
         
         
-        $("#movon").append('<div style="color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
+        $("#movon").append('<div style="max-width: 340px;min-width: 300px;color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
           
 		  
-        $("#movon").append('<iframe id="ifr_mov" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/0bRgLJCxiJI" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
+        $("#movon").append('<iframe id="ifr_mov" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/0bRgLJCxiJI" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
         
        $("#ifr_mov").show(function(){
         $("#upro").modal("hide");
@@ -231,10 +231,10 @@ var l_itv1=setInterval(function(){
         $("#movon").before('<div class="modal-dialog fr break" style="height: 338px;min-height: 599px;overflow: visible;margin-top:40px;"></div>');
         
         
-        $("#movon").append('<div style="color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
+        $("#movon").append('<div style="max-width: 340px;min-width: 300px;color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
           
 		  
-        $("#movon").append('<iframe id="lhdh1" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/kMaAf48iPlA" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
+        $("#movon").append('<iframe id="lhdh1" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/kMaAf48iPlA" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
         
        $("#lhdh1").show(function(){
         $("#upro").modal("hide");
@@ -341,10 +341,10 @@ var l_itv2=setInterval(function(){
         $("#movon").before('<div class="modal-dialog fr break" style="height: 338px;min-height: 599px;overflow: visible;margin-top:40px;"></div>');
         
         
-        $("#movon").append('<div style="color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
+        $("#movon").append('<div style="max-width: 340px;min-width: 300px;color:white; width: 338px !important; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
           
 		  
-        $("#movon").append('<iframe id="ifr_mov2" style="right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/3sXNkHgOrfU" allowfullscreen="" width="338" height="590" frameborder="0"></iframe>');
+        $("#movon").append('<iframe id="ifr_mov2" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/3sXNkHgOrfU" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
         
        $("#ifr_mov2").show(function(){
         $("#upro").modal("hide");
