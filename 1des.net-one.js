@@ -86,9 +86,11 @@ margin-left: 9px;
 
 `);
 
-var l_itv=setInterval(function(){
-    if(myid!=null){
-        clearInterval(l_itv);
+l_itv = false
+var itv = setInterval(function () {
+  if (myid != null && l_itv == false) {
+    clearInterval(itv)
+    l_itv = true
         $("#users .uzr:contains('*90+')").addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://f.top4top.io/p_24429dwn93.png">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mymood" class="My_mood" title="مزاجي" src="https://e.top4top.io/p_24439507h7.png">'); 
@@ -119,7 +121,7 @@ var l_itv=setInterval(function(){
     } ); 
 });
     }
-}, 20000);
+}, 5000);
 
 
 $("style").last().append(`
@@ -208,9 +210,11 @@ margin-left: 8px;
 
 `);
 
-var l_itv1=setInterval(function(){
-    if(myid!=null){
-        clearInterval(l_itv1);
+l_itv1 = false
+var itv = setInterval(function () {
+  if (myid != null && l_itv1 == false) {
+    clearInterval(itv)
+    l_itv1 = true
         $('#users .uzr:contains(عبدالله نت)').addClass('stl2');
         $("#users .uzr.stl2 .c-flex.fr").append('<img class="My_star1" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
         $("#users .uzr span.u-topic:contains('عبدالله نت')").after('<img id="mymood" class="My_mood1" title="مزاجي" src="https://i.ibb.co/VwRnB8H/1.png">'); 
@@ -241,7 +245,7 @@ var l_itv1=setInterval(function(){
     } ); 
 });
     }
-}, 20000);
+}, 5000);
 
 
 $("style").last().append(`
@@ -318,9 +322,11 @@ margin-left: 9px;
 }
 `);
 
-var l_itv2=setInterval(function(){
-    if(myid!=null){
-        clearInterval(l_itv2);
+l_itv2 = false
+var itv = setInterval(function () {
+  if (myid != null && l_itv2 == false) {
+    clearInterval(itv)
+    l_itv2 = true
         $("#users .uzr:contains('نور*+ث')").addClass('stl3');
         $("#users .uzr.stl3 .c-flex.fr").append('<img class="My_star2" title="توثيق" src="https://h.top4top.io/p_2442c44gj5.png">');
         $("#users .uzr span.u-topic:contains('نور*+ث')").after('<img id="mymood" class="My_mood2" title="مزاجي" src="https://g.top4top.io/p_2443n9tfx9.png">'); 
