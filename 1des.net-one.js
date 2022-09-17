@@ -87,9 +87,9 @@ margin-left: 9px;
 `);
 
 l_itv = false
-var itv = setInterval(function () {
+var itv1 = setInterval(function () {
   if (myid != null && l_itv == false) {
-    clearInterval(itv)
+    clearInterval(itv1)
     l_itv = true
         $("#users .uzr:contains('*90+')").addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://f.top4top.io/p_24429dwn93.png">');
@@ -211,9 +211,9 @@ margin-left: 8px;
 `);
 
 l_itv1 = false
-var itv = setInterval(function () {
+var itv2 = setInterval(function () {
   if (myid != null && l_itv1 == false) {
-    clearInterval(itv)
+    clearInterval(itv2)
     l_itv1 = true
         $('#users .uzr:contains(عبدالله نت)').addClass('stl2');
         $("#users .uzr.stl2 .c-flex.fr").append('<img class="My_star1" title="توثيق" src="https://c.top4top.io/p_243088vji1.gif">');
@@ -323,9 +323,9 @@ margin-left: 9px;
 `);
 
 l_itv2 = false
-var itv = setInterval(function () {
+var itv3 = setInterval(function () {
   if (myid != null && l_itv2 == false) {
-    clearInterval(itv)
+    clearInterval(itv3)
     l_itv2 = true
         $("#users .uzr:contains('نور*+ث')").addClass('stl3');
         $("#users .uzr.stl3 .c-flex.fr").append('<img class="My_star2" title="توثيق" src="https://h.top4top.io/p_2442c44gj5.png">');
