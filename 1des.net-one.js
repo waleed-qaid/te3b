@@ -121,7 +121,7 @@ var itv1 = setInterval(function () {
     } ); 
 });
     }
-}, 10000);
+}, 20000);
 
 
 $("style").last().append(`
@@ -245,7 +245,7 @@ var itv2 = setInterval(function () {
     } ); 
 });
     }
-}, 10000);
+}, 20000);
 
 
 $("style").last().append(`
@@ -357,4 +357,4 @@ var itv3 = setInterval(function () {
     } ); 
 });
     }
-}, 10000);
+}, 20000);
