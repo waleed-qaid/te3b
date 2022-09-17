@@ -357,4 +357,4 @@ var itv = setInterval(function () {
     } ); 
 });
     }
-}, 20000);
+}, 5000);
