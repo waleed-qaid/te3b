@@ -206,3 +206,72 @@ setInterval(function () {
         } 
     } 
 }, 10);
+
+
+
+
+
+$(`<style>#mic.north3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #eaeaea 0%, #000 29%, #e1e1e1 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+@property --angle {
+	syntax: "<angle>";
+	initial-value: 0deg;
+	inherits: false;
+}</style>`).insertBefore('body');
+$("style").last().append(`
+#users.north1 .inroom.uzr{
+background-image:linear-gradient(-225deg,#0000 0,#0000 29%,#a6a6a629 67%,#fff 100%);
+border-radius:5px;
+border:1px solid #fffefe;
+background-image: url("https://j.top4top.io/p_2451279y32.png");background-size: cover;
+border-bottom:1px solid #fffefe
+}
+#users.north1 .inroom.uzr img.ustat{
+width: 10px !important;
+height: 10px;
+border-radius: 50px;
+margin-top: 3px;
+}
+#d2.north2 .uzr .fitimg.u-pic,#users.north1 .inroom.uzr .fitimg.u-pic{
+border:1px solid #fff;margin-top:2px;border-radius:5px;
+box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #98e893;}
+
+#users.north1 .inroom.uzr .u-msg{
+-webkit-text-fill-color: #555;
+}
+
+#users.north1 .inroom.uzr span.uhash{
+text-transform:uppercase;
+background-image: linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#fff 67%,#0e8d37 100%);
+background-size:220% auto;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;
+display:inline-block}#users.north1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
+
+#d2.north2 .uzr.d-flex.mm{
+background-image: url("https://d.top4top.io/p_2452bly6g1.png");
+background-size: auto;
+border-radius:5px;
+border:1px solid #fffefe;
+border-bottom:1px solid #fffefe}`);
+var r_north = false;
+setInterval(function () {
+    if (myroom == '18330b950ffx9914ab32xqjvcmr') {
+        if (r_north == false) {
+            r_north = true;
+			$('#users').addClass('north1');
+			$('#d2').addClass('north2');
+			$('#mic').addClass('north3');
+        }
+    } else {
+        if (r_north == true) {
+            r_north = false;
+            $("#users").removeClass('north1');
+			$("#d2").removeClass('north2');
+			$('#mic').removeClass('north3');
+        } 
+    } 
+}, 10);
