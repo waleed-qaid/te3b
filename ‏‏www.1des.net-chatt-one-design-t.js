@@ -252,7 +252,7 @@ background-size:220% auto;
 display:inline-block}#users.north1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
 
 #d2.north2 .uzr.d-flex.mm{
-background-image: url("https://d.top4top.io/p_2452bly6g1.png");
+background-image: url("https://c.top4top.io/p_24527uya31.png");
 background-size: auto;
 border-radius:5px;
 border:1px solid #fffefe;
