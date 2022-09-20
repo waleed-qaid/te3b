@@ -368,3 +368,26 @@ var itv3 = setInterval(function () {
 });
     }
 }, 20000);
+
+
+$("style").last().append(`
+#users .uzr.stl4 {
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
+  margin-bottom: 3px !important;
+  margin-top: 2px !important;
+  border-radius: 4px;
+  background-image: url("https://j.top4top.io/p_2451279y32.png");
+  background-size: cover;
+  border: 1px solid #fff;
+}
+
+`);
+
+l_itv3 = false
+var itv4 = setInterval(function () {
+  if (myid != null && l_itv == false) {
+    clearInterval(itv4)
+    l_itv = true
+        $("#users .uzr:contains('وجـ$ب')").addClass('stl4');
+    }
+}, 20000);
