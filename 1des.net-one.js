@@ -93,8 +93,6 @@ var itv1 = setInterval(function () {
     l_itv = true
         $("#users .uzr:contains('*90+')").addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://f.top4top.io/p_24429dwn93.png">');
-        $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mymood" class="My_mood" title="مزاجي" src="https://e.top4top.io/p_24439507h7.png">'); 
-        $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mydrink" class="my_drink" title="مشروبي" src="https://d.top4top.io/p_2443uv5sj10.png">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mystory" class="My_vedio" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
     
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
