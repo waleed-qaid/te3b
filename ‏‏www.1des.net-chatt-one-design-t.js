@@ -242,7 +242,7 @@ $("style").last().append(`
 background-image:linear-gradient(-225deg,#0000 0,#0000 29%,#a6a6a629 67%,#fff 100%);
 border-radius:5px;
 border:1px solid #fffefe;
-background-image: url("https://j.top4top.io/p_2451279y32.png");background-size: cover;
+background-image: url("https://l.top4top.io/p_24545lyc41.png");background-size: cover;
 border-bottom:1px solid #fffefe
 }
 #users.north1 .inroom.uzr img.ustat{
@@ -268,7 +268,7 @@ background-size:220% auto;
 display:inline-block}#users.north1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
 
 #d2.north2 .uzr.d-flex.mm{
-background-image: url("https://c.top4top.io/p_24527uya31.png");
+background-image: url("https://d.top4top.io/p_24543aytl1.png");
 background-size: auto;
 border-radius:5px;
 border:1px solid #fffefe;
