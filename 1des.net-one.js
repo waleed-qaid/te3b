@@ -128,9 +128,10 @@ $("style").last().append(`
 
 #users .uzr.stl2 .fitimg.u-pic {
   border: 1px solid #fff;
-  border-radius: 5px;
-  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 3px #797979;
-  margin-top: 0px;
+  border-radius: 50px;
+  margin-top: -1px;
+  z-index: 0;
+  margin-left: -53px;
 }
 
 #users .uzr.stl2 .u-msg {
@@ -180,10 +181,11 @@ $("style").last().append(`
 }
 
 #users .uzr.stl2 .My_star1 {
-width: 18px;
-margin-top: -18px;
-cursor: pointer;
-margin-left: 8px;
+  width: 18px;
+  margin-top: -18px;
+  cursor: pointer;
+  margin-left: 8px;
+  z-index: 0;
 }
 
 #users .uzr.stl2 .My_mood1 {
@@ -206,6 +208,14 @@ margin-left: 8px;
   margin-top: 1px;
   margin-right: 0px;
   cursor: pointer;
+}
+
+#users .uzr.stl2 .ustat {
+  width: 54px !important;
+  border-radius: 0px 50px 50px 50px;
+  height: 52px;
+  margin-top: -1px;
+  min-height: 0% !important;
 }
 
 `);
@@ -238,7 +248,7 @@ var itv2 = setInterval(function () {
         $("#movon").append('<div style="max-width: 340px; min-width: 300px; color:white; width: 338px; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
           
 		  
-        $("#movon").append('<iframe id="lhdh1" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/Bz28Ko7_8ro" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
+        $("#movon").append('<iframe id="lhdh1" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/YfMQbUkdv3w" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
         
        $("#lhdh1").show(function(){
         $("#upro").modal("hide");
