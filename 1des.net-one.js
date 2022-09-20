@@ -383,9 +383,9 @@ $("style").last().append(`
 
 l_itv3 = false
 var itv4 = setInterval(function () {
-  if (myid != null && l_itv == false) {
+  if (myid != null && l_itv3 == false) {
     clearInterval(itv4)
-    l_itv = true
+    l_itv3 = true
         $("#users .uzr:contains('وجـ$ب')").addClass('stl4');
     }
 }, 20000);
