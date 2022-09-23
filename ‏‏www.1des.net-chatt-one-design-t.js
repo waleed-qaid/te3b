@@ -227,7 +227,7 @@ setInterval(function () {
 
 
 
-$(`<style>#mic.north3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #eaeaea 0%, #000 29%, #e1e1e1 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
+$(`<style>#mic.north3 #muteall {background-color: #ff8f8f !important;}#mic.north3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #ea5167 0%, #000 29%, #ea5167 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
 	to {
 		--angle: 360deg;
 	}
@@ -239,21 +239,32 @@ $(`<style>#mic.north3 .mic {border: 2px solid;border-image: linear-gradient(var(
 }</style>`).insertBefore('body');
 $("style").last().append(`
 #users.north1 .inroom.uzr{
-background-image:linear-gradient(-225deg,#0000 0,#0000 29%,#a6a6a629 67%,#fff 100%);
 border-radius:5px;
-border:1px solid #fffefe;
+border:1px solid #f2b4bd;
 background-image: url("https://l.top4top.io/p_24545lyc41.png");background-size: cover;
 border-bottom:1px solid #fffefe
 }
-#users.north1 .inroom.uzr img.ustat{
-width: 10px !important;
-height: 10px;
-border-radius: 50px;
-margin-top: 3px;
+#users.north1 .inroom.uzr img.ustat {
+  width: 54px !important;
+  border-radius: 0px 50px 50px 50px;
+  height: 52px;
+  margin-top: -1px;
+  min-height: 0% !important;
 }
-#d2.north2 .uzr .fitimg.u-pic,#users.north1 .inroom.uzr .fitimg.u-pic{
-border:1px solid #fff;margin-top:2px;border-radius:5px;
-box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #98e893;}
+#users.north1 .inroom.uzr .fitimg.u-pic {
+  border-radius: 50px;
+  margin-top: 0px;
+  z-index: 0;
+  margin-left: -52px;
+  min-width: 51px;
+  width: 50px;
+  min-height: 48px;
+  max-height: 50px;
+}
+#d2.north2 .uzr .fitimg.u-pic{
+border:1px solid #ea5167;
+margin-top:2px;border-radius:5px;
+box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff8181;}
 
 #users.north1 .inroom.uzr .u-msg{
 -webkit-text-fill-color: #555;
@@ -261,7 +272,7 @@ box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #98e893;}
 
 #users.north1 .inroom.uzr span.uhash{
 text-transform:uppercase;
-background-image: linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#fff 67%,#0e8d37 100%);
+background-image: linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#f00 67%,#0e8d37 100%);
 background-size:220% auto;
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;animation:2s linear infinite textclip;
