@@ -308,6 +308,7 @@ width: 18px;
 margin-top: -19px;
 cursor: pointer;
 margin-left: 9px;
+z-index: 0;
 }
 #users .uzr.stl3 .My_mood2 {
   float: right;
