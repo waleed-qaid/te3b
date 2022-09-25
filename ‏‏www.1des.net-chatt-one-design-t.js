@@ -48,7 +48,7 @@ var itv = setInterval(function () {
     newstyle = true
 	
 	
-	$(".one3").append('<input id="dark_mod" type="checkbox" style="display:none;">');
+$("#mic").append('<input id="dark_mod" type="checkbox" style="display:none;">');
 
 $("#dark_mod").click(() => {
   $("*").toggleClass("light_mod dark_mod");
