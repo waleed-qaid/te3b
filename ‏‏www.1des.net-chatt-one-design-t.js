@@ -41,12 +41,21 @@ $(`<style>
 	initial-value: 0deg;
 	inherits: false;
 }</style>`).insertBefore('body');
-
-$(".one3").append('<input id="dark_mod" type="checkbox" style="display:none;">');
+newstyle = false
+var itv = setInterval(function () {
+  if (myid != null && newstyle == false) {
+    clearInterval(itv)
+    newstyle = true
+	
+	
+	$(".one3").append('<input id="dark_mod" type="checkbox" style="display:none;">');
 
 $("#dark_mod").click(() => {
   $("*").toggleClass("light_mod dark_mod");
 }); 
+	
+	  }
+}, 10000);
 
 $("style").last().append(`
 #dark_mod.mod1 {
