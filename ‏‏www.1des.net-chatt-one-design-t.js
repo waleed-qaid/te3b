@@ -1,4 +1,37 @@
-$(`<style>#mic.one3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #e34385 0%, #000000 29%, #ff75a2 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
+$(`<style>
+
+#dark_mod.mod1 {
+  -webkit-appearance: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: relative;
+  transition: 0.4s;
+  background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon.png")
+    no-repeat center #212121;
+  background-size: 30px;
+  cursor: pointer;
+  margin-top: 1px !important;
+}
+#dark_mod.mod1:checked {
+  background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/sun.png")
+    no-repeat center #ffffff;
+  background-size: 30px;
+  
+}
+
+.light_mod{
+  background-color:#fff;
+  transition: background-color 0.5s ease;
+}
+
+.dark_mod{
+  background-color: #515151 !important;
+  transition: background-color 0.5s ease;
+}
+
+#mic.one3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #e34385 0%, #000000 29%, #ff75a2 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
 	to {
 		--angle: 360deg;
 	}
@@ -8,7 +41,17 @@ $(`<style>#mic.one3 .mic {border: 2px solid;border-image: linear-gradient(var(--
 	initial-value: 0deg;
 	inherits: false;
 }</style>`).insertBefore('body');
+
+$(".one3").append('<input id="dark_mod" type="checkbox" style="display:none;">');
+
+$("#dark_mod").click(() => {
+  $("*").toggleClass("light_mod dark_mod");
+}); 
+
 $("style").last().append(`
+#dark_mod.mod1 {
+display: flex !important;
+}
 #users.one1 .inroom.uzr{
 background-image: url("https://j.top4top.io/p_2451279y32.png");background-size: cover;
 border-radius:5px;
@@ -25,16 +68,18 @@ setInterval(function () {
     if (myroom == '180b31492f9x922d0131xn7fcg1') {
         if (r_one == false) {
             r_one = true;
-			$('#users').addClass('one1');
-			$('#d2').addClass('one2');
-			$('#mic').addClass('one3');
+		$('#users').addClass('one1');
+		$('#d2').addClass('one2');
+		$('#mic').addClass('one3');
+		$('#dark_mod').addClass('mod1');
         }
     } else {
         if (r_one == true) {
             r_one = false;
             $("#users").removeClass('one1');
-			$("#d2").removeClass('one2');
-			$('#mic').removeClass('one3');
+	    $("#d2").removeClass('one2');
+	    $('#mic').removeClass('one3');
+	    $("#dark_mod").removeClass('mod1');
         } 
     } 
 }, 10);
