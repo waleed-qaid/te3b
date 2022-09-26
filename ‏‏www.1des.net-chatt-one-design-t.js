@@ -1,6 +1,6 @@
 $(`<style>
 
-.rdark_mod.mod1 {
+.rdark_mod {
   -webkit-appearance: none;
   outline: none;
   width: 50px;
@@ -14,7 +14,7 @@ $(`<style>
   cursor: pointer;
   margin-top: 1px !important;
 }
-.rdark_mod.mod1:checked {
+.rdark_mod:checked {
   background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/sun.png")
     no-repeat center #ffffff;
   background-size: 30px;
@@ -50,7 +50,7 @@ var itv = setInterval(function () {
 	
 $("#mic").append('<input class="rdark_mod" type="checkbox" style="display:none;">');
 
-$(".dark_mod").click(() => {
+$(".rdark_mod").click(() => {
   $("*").toggleClass("light_mod dark_mod");
 }); 
 	
@@ -58,7 +58,7 @@ $(".dark_mod").click(() => {
 }, 10000);
 
 $("style").last().append(`
-#dark_mod.mod1 {
+.rdark_mod.mod1 {
 display: flex !important;
 }
 #users.one1 .inroom.uzr{
