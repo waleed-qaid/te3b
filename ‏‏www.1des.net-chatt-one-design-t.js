@@ -1,36 +1,5 @@
 $(`<style>
 
-.rdark_mod {
-  -webkit-appearance: none;
-  outline: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  position: relative;
-  transition: 0.4s;
-  background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/moon.png")
-    no-repeat center #212121;
-  background-size: 30px;
-  cursor: pointer;
-  margin-top: 1px !important;
-}
-.rdark_mod:checked {
-  background: url("https://raw.githubusercontent.com/RuchiVS/image-upload/main/sun.png")
-    no-repeat center #ffffff;
-  background-size: 30px;
-  
-}
-
-.light_mod{
-  background-color:#fff;
-  transition: background-color 0.5s ease;
-}
-
-.dark_mod{
-  background-color: #515151 !important;
-  transition: background-color 0.5s ease;
-}
-
 #mic.one3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #e34385 0%, #000000 29%, #ff75a2 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
 	to {
 		--angle: 360deg;
@@ -48,17 +17,41 @@ var itv = setInterval(function () {
     newstyle = true
 	
 	
-$("#mic").append('<input class="rdark_mod" type="checkbox" style="display:none;">');
+$("#mic").append('<input id="rdark_mod" class="r_mod" type="checkbox" style="display:none;">');
 
-$(".rdark_mod").click(() => {
-  $("*").toggleClass("light_mod dark_mod");
+$("#rdark_mod").click(() => {
+  $(".one5").toggleClass("one6");
 }); 
 	
 	  }
-}, 10000);
+}, 1000);
 
 $("style").last().append(`
-.rdark_mod.mod1 {
+#rdark_mod.r_mod.one4 {
+  -webkit-appearance: none;
+  outline: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  position: relative;
+  transition: 0.4s;
+  background: url("https://i.ibb.co/3SnPT0J/sun.png")
+  no-repeat center #212121;
+  background-size: 25px;
+  cursor: pointer;
+  margin-top: 8px !important;
+}
+#rdark_mod.r_mod.one4:checked {
+  background: url("https://i.ibb.co/smDBC4X/moon.png")
+  no-repeat center #000;
+  background-size: 25px;
+  
+}
+.one6{
+  background-color: #555 !important;
+  transition: background-color 0.5s ease;
+}
+#rdark_mod.r_mod.one4 {
 display: flex !important;
 }
 #users.one1 .inroom.uzr{
@@ -70,24 +63,28 @@ border-bottom:1px solid #fffefe
 width:10px!important;
 height:10px;border-radius:50%
 }
-#d2.one2 .uzr .fitimg.u-pic,#users.one1 .inroom.uzr .fitimg.u-pic{border:1px solid #fff;margin-top:2px;border-radius:5px;box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff0060}#users.one1 .inroom.uzr .u-msg{text-align:center;background-image:-webkit-linear-gradient(75deg,rgb(0 0 0 / 53%) 25%,#ff0066ab 25%,#000 50%,#c90051b8 50%,#ff006600 75%);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:#0000}#users.one1 .inroom.uzr span.uhash{text-transform:uppercase;background-image:linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#ff1361 67%,#3600ff 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}#users.one1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}#d2.one2 .uzr.d-flex.mm{background-size: auto;border-radius:5px;border:1px solid #fffefe;border-bottom:1px solid #fffefe}`);
+#d2.one2 .uzr .fitimg.u-pic,#users.one1 .inroom.uzr .fitimg.u-pic{border:1px solid #fff;margin-top:2px;border-radius:5px;box-shadow:inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff0060}#users.one1 .inroom.uzr .u-msg{text-align:center;background-image:-webkit-linear-gradient(75deg,rgb(0 0 0 / 53%) 25%,#ff0066ab 25%,#000 50%,#c90051b8 50%,#ff006600 75%);background-size:200% auto;-webkit-background-clip:text;-webkit-text-fill-color:#0000}#users.one1 .inroom.uzr span.uhash{text-transform:uppercase;background-image:linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#ff1361 67%,#3600ff 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}#users.one1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}#d2.one2 .uzr.d-flex.mm{background-size: auto;border-radius:5px;border:1px solid #fffefe6b;border-bottom:1px solid #fffefe00}`);
 var r_one = false;
 setInterval(function () {
-    if (myroom == '180b31492f9x922d0131xn7fcg1') {
+    if (myroom == '18117e97851x57094ad6-x-t8qf5z') {
         if (r_one == false) {
             r_one = true;
 		$('#users').addClass('one1');
 		$('#d2').addClass('one2');
 		$('#mic').addClass('one3');
-		$('#dark_mod').addClass('mod1');
+		$('#rdark_mod').addClass('one4');
+		$('*').addClass('one5');
+		$('*').addClass('one6');
         }
     } else {
         if (r_one == true) {
             r_one = false;
-            $("#users").removeClass('one1');
+      $("#users").removeClass('one1');
 	    $("#d2").removeClass('one2');
 	    $('#mic').removeClass('one3');
-	    $("#dark_mod").removeClass('mod1');
+	    $("#rdark_mod").removeClass('one4');
+	    $("*").removeClass('one5');
+	    $("*").removeClass('one6');
         } 
     } 
 }, 10);
