@@ -72,6 +72,7 @@ display: flex !important;
 }
 #d2.one6 .uzr.d-flex.mm.pmsgc {
   background-color: #555 !important;
+  border-bottom: 1px solid #5b5b5b !important;
 }
 #settings.one6 .label-primary {
   background-color: #2f2f2f !important;
