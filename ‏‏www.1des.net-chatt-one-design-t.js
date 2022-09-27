@@ -67,7 +67,7 @@ display: flex !important;
 
 
 #d2.one6 .u-msg.break {
-  color: #eaeaea !important;
+  color: #d7d7d7 !important;
 }
 
 
