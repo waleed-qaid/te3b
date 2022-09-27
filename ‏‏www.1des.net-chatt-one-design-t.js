@@ -54,99 +54,74 @@ $("style").last().append(`
 #rdark_mod.r_mod.one4 {
 display: flex !important;
 }
-
-
-
-
-
-
 #users.one6 .uzr {
   background-color: #555 !important;
 }
-
-
-
 #dpnl.one6 .nosel.ninr.fl.uzr.label.bg {
   background-color: #555;
 }
-
-
 #settings.one6 .borderg.corner {
   background-color: #555 !important;
   border: 0px solid #f4f4f4;
 }
-
-
 #d2.one6 .u-msg.break {
   color: #d7d7d7 !important;
 }
-
-
 #d2.one6 .nosel.u-topic.dots.hand {
   color: #000 !important;
 }
-
-
+#settings.one6 .label-primary {
+  background-color: #2f2f2f !important;
+}
+#rooms.one6 .label-primary {
+  background-color: #2f2f2f !important;
+}
+#rooms.one6 .nosel.d-flex.room {
+  background-color: #555;
+}
+#wall.one6 .uzr.d-flex.mm {
+  background-color: #959595;
+}
+#d0.one6 .label-primary {
+  background-color: #2f2f2f;
+}
 #users.one6 .uzr {
   background-color: #555 !important;
 }
-
-
-
 #dpnl.one6 .nosel.ninr.fl.uzr.label.bg {
   background-color: #555;
 }
-
-
 #settings.one6 .borderg.corner {
   background-color: #555 !important;
   border: 0px solid #f4f4f4;
 }
-
-
 #d2.one6 {
   background-color: #3e3e3e !important;
 }
-
-
 #settings.one6 .label-primary, .btn-primary, .bg-primary {
   background-color: #2f2f2f;
 }
-
-
 #d0.one6 .label-primary, .btn-primary {
   background-color: #2f2f2f;
 }
-
-
 #muteall.one6 {
   background-color: mediumseagreen !important;
 }
-
-
 #rooms.one6 .label-primary, .btn-primary {
   background-color: #2f2f2f;
 }
-
-
 #users.one6 .tbox {
     background-color: #8a8a8a;
 }
-
 #room.one6 #mic {
   background-color: #555;
 }
-
 #room.one6 #mic .mic, #muteall {
   background-color: #2F2F2F;
 }
-
-
 #room.one6 .break {
   background-color: #555;
 }
-
-
 #room.one6 .tablebox.d-flex.footer.fl.light {
   background-color: #959595;
 }
@@ -169,8 +144,8 @@ setInterval(function () {
 		$('#d2').addClass('one2');
 		$('#mic').addClass('one3');
 		$('#rdark_mod').addClass('one4');
-		$('#room, #d2, #d0, #rooms, #users, #dpnl, #settings, #chats, #mic #muteall ').addClass('one5');
-		$('#room, #d2, #d0, #rooms, #users, #dpnl, #settings, #chats, #mic #muteall ').addClass('one6');
+		$('#room, #d2, #d0, #rooms, #users, #wall, #dpnl, #settings, #chats, #mic #muteall ').addClass('one5');
+		$('#room, #d2, #d0, #rooms, #users, #wall, #dpnl, #settings, #chats, #mic #muteall ').addClass('one6');
         }
     } else {
         if (r_one == true) {
@@ -179,8 +154,8 @@ setInterval(function () {
 	    $("#d2").removeClass('one2');
 	    $('#mic').removeClass('one3');
 	    $("#rdark_mod").removeClass('one4');
-	    $("#room, #d2, #d0, #rooms, #users, #dpnl, #settings, #chats, #mic #muteall ").removeClass('one5');
-	    $("#room, #d2, #d0, #rooms, #users, #dpnl, #settings, #chats, #mic #muteall ").removeClass('one6');
+	    $("#room, #d2, #d0, #rooms, #users, #wall, #dpnl, #settings, #chats, #mic #muteall ").removeClass('one5');
+	    $("#room, #d2, #d0, #rooms, #users, #wall, #dpnl, #settings, #chats, #mic #muteall ").removeClass('one6');
         } 
     } 
 }, 10);
