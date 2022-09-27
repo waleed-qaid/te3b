@@ -48,7 +48,7 @@ $("style").last().append(`
   
 }
 .one6{
-  background-color: #555;
+  background-color: #3d3f42;
   transition: background-color 0.5s ease;
 }
 #rdark_mod.r_mod.one4 {
@@ -82,14 +82,14 @@ display: flex !important;
 #rooms.one6 .nosel.d-flex.room {
   background-color: #555;
 }
+#users.one6 .nosel.ninr.fl.uzr.label.bg {
+  background-color: #2f2f2f !important;
+}
 #wall.one6 .uzr.d-flex.mm {
   background-color: #959595;
 }
 #d0.one6 .label-primary {
   background-color: #2f2f2f;
-}
-#users.one6 .uzr {
-  background-color: #555 !important;
 }
 #dpnl.one6 .nosel.ninr.fl.uzr.label.bg {
   background-color: #555;
