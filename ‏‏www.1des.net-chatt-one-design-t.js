@@ -70,6 +70,9 @@ display: flex !important;
 #d2.one6 .nosel.u-topic.dots.hand {
   color: #000 !important;
 }
+#d2.one6 .uzr.d-flex.mm.pmsgc {
+  background-color: #555 !important;
+}
 #settings.one6 .label-primary {
   background-color: #2f2f2f !important;
 }
