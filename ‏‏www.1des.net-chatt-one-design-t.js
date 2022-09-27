@@ -91,9 +91,6 @@ display: flex !important;
 #d0.one6 .label-primary {
   background-color: #2f2f2f;
 }
-#dpnl.one6 .nosel.ninr.fl.uzr.label.bg {
-  background-color: #555;
-}
 #settings.one6 .borderg.corner {
   background-color: #555 !important;
   border: 0px solid #f4f4f4;
