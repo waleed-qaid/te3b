@@ -361,34 +361,11 @@ var itv3 = setInterval(function () {
         $("#movon").append('<div style="max-width: 340px; min-width: 300px; color:white; width: 338px; float: right;" class="modal-header label-primary"><span class="pull-right clickable badge"><i class="fa fa-times"></i></span><label style="margin:1px; float: right;" > My vedio </label></div>');
           
 		  
-        $("#movon").append('<iframe id="ifr_mov2" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/ZgJCM1nK0r8" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
+        $("#movon").append('<iframe id="ifr_mov2" style="max-width: 340px;min-width: 300px;right: 0; top: 35px; left: auto;" class="modal in" role="dialog" style="z-index: 2100; display: none; style="max-width:240px;" src="https://www.youtube.com/embed/h3U3PFJZ8hc" allowfullscreen="" width="338" height="490" frameborder="0"></iframe>');
         
        $("#ifr_mov2").show(function(){
         $("#upro").modal("hide");
     } ); 
 });
-    }
-}, 20000);
-
-
-$("style").last().append(`
-#users .uzr.stl4 {
-  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #000;
-  margin-bottom: 3px !important;
-  margin-top: 2px !important;
-  border-radius: 4px;
-  background-image: url("https://j.top4top.io/p_2451279y32.png");
-  background-size: cover;
-  border: 1px solid #fff;
-}
-
-`);
-
-l_itv3 = false
-var itv4 = setInterval(function () {
-  if (myid != null && l_itv3 == false) {
-    clearInterval(itv4)
-    l_itv3 = true
-        $("#users .uzr:contains('وجـ$ب')").addClass('stl4');
     }
 }, 20000);
