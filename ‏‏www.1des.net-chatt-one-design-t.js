@@ -14,6 +14,8 @@ var itv = setInterval(function () {
     clearInterval(itv)
     newstyle = true	
 $("#mic").append('<input id="rdark_mod" class="r_mod" type="checkbox" style="display:none;">');
+$("#mic").append('<input id="rdark_mod1" class="r_mod1" type="checkbox" style="display:none;">');
+$("#mic").append('<input id="rdark_mod2" class="r_mod2" type="checkbox" style="display:none;">');
 $("#rdark_mod").click(() => {
   $(".one5").toggleClass("one6");
 }); }}, 1000);
