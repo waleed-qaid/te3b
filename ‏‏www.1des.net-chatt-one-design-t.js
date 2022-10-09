@@ -316,7 +316,14 @@ setInterval(function () {
 }, 10);
 
 
-$(`<style>.nosel.d-flex.room.r1837d95c1a9x54fb93-xaps7hv .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
+$(`<style>
+.nosel.d-flex.room.r17ef32d2603xebed46b3-xfg0v0d .fitimg.u-pic.borderg {
+  letter-spacing: 1px;
+  background-size: 108% 108%;
+  -webkit-text-fill-color: white;
+  animation: grad 2s cubic-bezier(.445,.05,.55,.95) alternate infinite;
+}
+.nosel.d-flex.room.r1837d95c1a9x54fb93-xaps7hv .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
 letter-spacing: 1px;
 -webkit-text-fill-color: #fff;
 background-image: url(https://g.top4top.io/p_2459tqkin1.png);
