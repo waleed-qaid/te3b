@@ -1,4 +1,38 @@
+$(".nosel.d-flex.room.r180b31492f9x922d0131xn7fcg1 .u-topic.dots").after('<div class="like_R_button"><img class="r_like" src="https://c.top4top.io/p_243088vji1.gif"><span class="r_count">0</span></div>');
 
+$('.r_count').each(function() {
+  var clicks = Math.floor((Math.random() * 100) + 1);
+  $(this).text(clicks);
+});
+
+$(".like_r_button img").on("click", function() {
+  var $count = $(this).parent().find('.r_count');
+  $count.html($count.html() * 1 + 1);
+});
+
+
+$(`<style>
+.like_r_button {
+  width: 58px;
+  padding: 0px;
+  border-radius: 2px;
+  background-color: #000;
+  float: right;
+  margin-right: 0px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.r_like {
+  width: 19px;
+  margin: 0px 6px 5px 4px;
+}
+
+.r_count {
+  font-size: 18px !important;
+  color: aliceblue;
+  margin: 0 0 0 -3px;
+}</style>`).insertBefore('body');
 
 $("style").last().append(`
 
