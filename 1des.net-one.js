@@ -93,8 +93,6 @@ var itv1 = setInterval(function () {
     l_itv = true
         $("#users .uzr:contains('*90+')").addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://f.top4top.io/p_24429dwn93.png">');
-	$("#users .uzr span.u-topic:contains('*90+')").after('<img id="mymood" class="My_mood" title="مزاجي" src="https://e.top4top.io/p_24439507h7.png">'); 
-        $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mydrink" class="my_drink" title="مشروبي" src="https://d.top4top.io/p_2443uv5sj10.png">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mystory" class="My_vedio" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
     
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
@@ -340,8 +338,6 @@ var itv3 = setInterval(function () {
     l_itv2 = true
         $("#users .uzr:contains('نور*+ث')").addClass('stl3');
         $("#users .uzr.stl3 .c-flex.fr").append('<img class="My_star2" title="توثيق" src="https://h.top4top.io/p_2442c44gj5.png">');
-        $("#users .uzr span.u-topic:contains('نور*+ث')").after('<img id="mymood" class="My_mood2" title="مزاجي" src="https://g.top4top.io/p_2443n9tfx9.png">'); 
-        $("#users .uzr span.u-topic:contains('نور*+ث')").after('<img id="mydrink" class="my_drink2" title="مشروبي" src="https://h.top4top.io/p_2443a8y3c2.png">');
         $("#users .uzr span.u-topic:contains('نور*+ث')").after('<img id="mystory" class="My_vedio2" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
     
         $("#users .uzr.stl3 span.uhash, #users .uzr.stl3 img.co").hide(); 
