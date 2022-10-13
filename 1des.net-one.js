@@ -1,5 +1,13 @@
 
+	       $('.r_count').each(function() {
+  var clicks = Math.floor((Math.random() * 100) + 1);
+  $(this).text(clicks);
+});
 
+$(".like_R_button img").on("click", function() {
+  var $count = $(this).parent().find('.r_count');
+  $count.html($count.html() * 1 + 1);
+});
 
 
 $(`<style>
@@ -142,16 +150,7 @@ var itv1 = setInterval(function () {
         
        $("#ifr_mov").show(function(){
         $("#upro").modal("hide");
-	       
-	       $('.r_count').each(function() {
-  var clicks = Math.floor((Math.random() * 100) + 1);
-  $(this).text(clicks);
-});
-
-$(".like_R_button img").on("click", function() {
-  var $count = $(this).parent().find('.r_count');
-  $count.html($count.html() * 1 + 1);
-});
+	   
     } ); 
 });
     }
