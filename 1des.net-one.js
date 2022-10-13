@@ -3,7 +3,7 @@
 
 
 $(`<style>
-.like_r_button {
+.like_R_button {
   width: 58px;
   padding: 0px;
   border-radius: 2px;
@@ -148,7 +148,7 @@ var itv1 = setInterval(function () {
   $(this).text(clicks);
 });
 
-$(".like_r_button img").on("click", function() {
+$(".like_R_button img").on("click", function() {
   var $count = $(this).parent().find('.r_count');
   $count.html($count.html() * 1 + 1);
 });
