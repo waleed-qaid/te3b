@@ -1,38 +1,3 @@
-
-	       $('.r_count').each(function() {
-  var clicks = Math.floor((Math.random() * 100) + 1);
-  $(this).text(clicks);
-});
-
-$(".like_R_button img").on("click", function() {
-  var $count = $(this).parent().find('.r_count');
-  $count.html($count.html() * 1 + 1);
-});
-
-
-$(`<style>
-.like_R_button {
-  width: 58px;
-  padding: 0px;
-  border-radius: 2px;
-  background-color: #000;
-  float: right;
-  margin-right: 0px;
-  height: 25px;
-  cursor: pointer;
-}
-
-.r_like {
-  width: 19px;
-  margin: 0px 6px 5px 4px;
-}
-
-.r_count {
-  font-size: 18px !important;
-  color: aliceblue;
-  margin: 0 0 0 -3px;
-}</style>`).insertBefore('body');
-
 $("style").last().append(`
 
 #users .uzr.stl1 .fitimg.u-pic {
@@ -127,7 +92,6 @@ var itv1 = setInterval(function () {
         $("#users .uzr:contains('*90+')").addClass('stl1');
         $("#users .uzr.stl1 .c-flex.fr").append('<img class="My_star" title="توثيق" src="https://f.top4top.io/p_24429dwn93.png">');
         $("#users .uzr span.u-topic:contains('*90+')").after('<img id="mystory" class="My_vedio" title="ستوري" src="https://i.ibb.co/47VS4nY/image.png">');
-    $(".nosel.d-flex.room.r180b31492f9x922d0131xn7fcg1 .u-topic.dots").after('<div class="like_R_button"><img class="r_like" src="https://c.top4top.io/p_243088vji1.gif"><span class="r_count">0</span></div>');
 
         $("#users .uzr.stl1 span.uhash, #users .uzr.stl1 img.co").hide(); 
 
