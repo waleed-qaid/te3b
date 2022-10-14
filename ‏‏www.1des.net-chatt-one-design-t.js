@@ -334,7 +334,7 @@ background-color: rgb(100, 100, 100);
 #d2.north6 {
 background-color: #000 !important;
 background-image: url("https://h.top4top.io/p_2478acw4j1.png")!important;
-background-size: contain;
+background-size: cover;
 }
 #settings.north6 {
   background-image: url("https://h.top4top.io/p_2478acw4j1.png")!important;
@@ -355,7 +355,7 @@ background-size: contain;
 #d2.north5 {
 background-color: #000 !important;
 background-image: url("https://b.top4top.io/p_24787sbsq1.jpeg");
-background-size: contain;
+background-size: cover;
 }
 #settings.north5 {
   background-image: url("https://b.top4top.io/p_24787sbsq1.jpeg");
