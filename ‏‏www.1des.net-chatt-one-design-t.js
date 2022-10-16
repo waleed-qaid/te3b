@@ -260,7 +260,6 @@ setInterval(function () {
 }, 10);
 
 
-
 $(`<style>#mic4 {margin-right: 8px !important;}#mic.north3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #ea5167 0%, #000 29%, #ea5167 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
 	to {
 		--angle: 360deg;
@@ -271,15 +270,7 @@ $(`<style>#mic4 {margin-right: 8px !important;}#mic.north3 .mic {border: 2px sol
 	initial-value: 0deg;
 	inherits: false;
 }</style>`).insertBefore('body');
-newstyle2 = false
-var itv2 = setInterval(function () {
-  if (myid != null && newstyle2 == false) {
-    clearInterval(itv2)
-    newstyle2 = true	
-$("#mic").append('<input id="rdark_mod2" class="r_mod2" type="checkbox" style="display:none;">');
-$("#rdark_mod2").click(() => {
-  $(".north5").toggleClass("north6");
-}); }}, 1000);
+var _0x1168=["\x3C\x69\x6E\x70\x75\x74\x20\x69\x64\x3D\x22\x72\x64\x61\x72\x6B\x5F\x6D\x6F\x64\x32\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x5F\x6D\x6F\x64\x32\x22\x20\x74\x79\x70\x65\x3D\x22\x63\x68\x65\x63\x6B\x62\x6F\x78\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x64\x69\x73\x70\x6C\x61\x79\x3A\x6E\x6F\x6E\x65\x3B\x22\x3E","\x61\x70\x70\x65\x6E\x64","\x23\x6D\x69\x63","\x6E\x6F\x72\x74\x68\x36","\x74\x6F\x67\x67\x6C\x65\x43\x6C\x61\x73\x73","\x2E\x6E\x6F\x72\x74\x68\x35","\x63\x6C\x69\x63\x6B","\x23\x72\x64\x61\x72\x6B\x5F\x6D\x6F\x64\x32"];var _0x1170=[_0x1168[0],_0x1168[1],_0x1168[2],_0x1168[3],_0x1168[4],_0x1168[5],_0x1168[6],_0x1168[7]];newstyle2=  !1;var itv2=setInterval(function(){null!= myid&& !1== newstyle2&& (clearInterval(itv2),newstyle2=  !0,$(_0x1170[2])[_0x1170[1]](_0x1170[0]),$(_0x1170[7])[_0x1170[6]](()=>{$(_0x1170[5])[_0x1170[4]](_0x1170[3])}))},1e3)
 $("style").last().append(`
 #rdark_mod2.r_mod2.north4 {-webkit-appearance: none;outline: none;width: 35px;height: 35px;border-radius: 50px;position: relative;transition: 0.4s;background: url("https://e.top4top.io/p_2462r4jy21.png")no-repeat center #212121;background-size: 25px;cursor: pointer;margin-top: 8px !important;}
 #rdark_mod2.r_mod2.north4:checked {background: url("https://f.top4top.io/p_2462lelhr2.png")no-repeat center #000;background-size: 25px;}
@@ -333,44 +324,44 @@ background-color: rgb(100, 100, 100);
 #settings.north6 .borderg.corner {background-color: #3c3b3b !important;border: 0px solid #f4f4f4;}
 #d2.north6 {
 background-color: #000 !important;
-background-image: url("https://h.top4top.io/p_2478acw4j1.png")!important;
+background-image: url("https://k.top4top.io/p_2480440bc1.jpg")!important;
 background-size: cover;
 }
 #settings.north6 {
-  background-image: url("https://h.top4top.io/p_2478acw4j1.png")!important;
+  background-image: url("https://k.top4top.io/p_2480440bc1.jpg")!important;
   background-size: cover;
 }
 #wall.north6 #d2bc {
-  background-image: url("https://h.top4top.io/p_2478acw4j1.png")!important;
+  background-image: url("https://k.top4top.io/p_2480440bc1.jpg")!important;
   background-size: cover;
 }
 #rooms.north6 {
-  background-image: url("https://h.top4top.io/p_2478acw4j1.png")!important;
+  background-image: url("https://k.top4top.io/p_2480440bc1.jpg")!important;
   background-size: cover;
 }
 #chats.north6 {
-  background-image: url("https://h.top4top.io/p_2478acw4j1.png")!important;
+  background-image: url("https://k.top4top.io/p_2480440bc1.jpg")!important;
   background-size: cover;
 }
 #d2.north5 {
 background-color: #000 !important;
-background-image: url("https://c.top4top.io/p_24803hci51.png");
+background-image: url("https://f.top4top.io/p_2479s408e1.png");
 background-size: cover;
 }
 #settings.north5 {
-  background-image: url("https://c.top4top.io/p_24803hci51.png");
+  background-image: url("https://f.top4top.io/p_2479s408e1.png");
   background-size: cover;
 }
 #wall.north5 #d2bc {
-  background-image: url("https://c.top4top.io/p_24803hci51.png");
+  background-image: url("https://f.top4top.io/p_2479s408e1.png");
   background-size: cover;
 }
 #rooms.north5 {
-  background-image: url("https://c.top4top.io/p_24803hci51.png");
+  background-image: url("https://f.top4top.io/p_2479s408e1.png");
   background-size: cover;
 }
 #chats.north5 {
-  background-image: url("https://c.top4top.io/p_24803hci51.png");
+  background-image: url("https://f.top4top.io/p_2479s408e1.png");
   background-size: cover;
 }
 #settings.north6 .label-primary, .btn-primary, .bg-primary {background-color: #595959;}
@@ -403,28 +394,7 @@ height: 52px !important;
 #users.north5 .inroom.uzr{border-radius:5px;border:1px solid #f2b4bd;background-image: url("https://l.top4top.io/p_24545lyc41.png");background-size: cover;border-bottom:1px solid #fffefe}
 #users.north5 .inroom.uzr img.ustat {width: 54px !important;border-radius: 0px 50px 50px 50px;height: 52px;margin-top: -1px;min-height: 0% !important;}
 #users.north5 .inroom.uzr .fitimg.u-pic {border-radius: 50px;margin-top: 0px;z-index: 0;margin-left: -52px;min-width: 51px;width: 50px;min-height: 48px;max-height: 50px;}
-#d2.north5 .uzr .fitimg.u-pic{height: 52px !important;
-box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff8181;
-border: 2px solid;
-  border-image-outset: 0;
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
-  border-image-source: none;
-  border-image-width: 1;
-border-image-outset: 0;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-image: linear-gradient(var(--angle), #ea5167 0%, #000 29%, #ea5167 67%, #020202 100%) 2;
-animation: 5s rotate linear infinite;
---angle: 0deg;
-border-radius: 5px !important;
-margin: 2px;
-  margin-top: 2px;
-  margin-right: 2px;
-margin-top: 2px;
-margin-right: 2px;}
+#d2.north5 .uzr .fitimg.u-pic{height: 52px !important;border:1px solid #ea5167;margin-top:2px;border-radius:5px;box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff8181;}
 #users.north5 .inroom.uzr .u-msg{-webkit-text-fill-color: #555;}
 #users.north5 .inroom.uzr span.uhash{text-transform:uppercase;background-image: linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#f00 67%,#0e8d37 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}
 #users.north5 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
