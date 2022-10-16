@@ -403,7 +403,28 @@ height: 52px !important;
 #users.north5 .inroom.uzr{border-radius:5px;border:1px solid #f2b4bd;background-image: url("https://l.top4top.io/p_24545lyc41.png");background-size: cover;border-bottom:1px solid #fffefe}
 #users.north5 .inroom.uzr img.ustat {width: 54px !important;border-radius: 0px 50px 50px 50px;height: 52px;margin-top: -1px;min-height: 0% !important;}
 #users.north5 .inroom.uzr .fitimg.u-pic {border-radius: 50px;margin-top: 0px;z-index: 0;margin-left: -52px;min-width: 51px;width: 50px;min-height: 48px;max-height: 50px;}
-#d2.north5 .uzr .fitimg.u-pic{height: 52px !important;border:1px solid #ea5167;margin-top:2px;border-radius:5px;box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff8181;}
+#d2.north5 .uzr .fitimg.u-pic{height: 52px !important;
+box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff8181;
+border: 2px solid;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-image: linear-gradient(var(--angle), #ea5167 0%, #000 29%, #ea5167 67%, #020202 100%) 2;
+animation: 5s rotate linear infinite;
+--angle: 0deg;
+border-radius: 5px !important;
+margin: 2px;
+  margin-top: 2px;
+  margin-right: 2px;
+margin-top: 2px;
+margin-right: 2px;}
 #users.north5 .inroom.uzr .u-msg{-webkit-text-fill-color: #555;}
 #users.north5 .inroom.uzr span.uhash{text-transform:uppercase;background-image: linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#f00 67%,#0e8d37 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;display:inline-block}
 #users.north5 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
