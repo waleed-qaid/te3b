@@ -354,23 +354,23 @@ background-size: cover;
 }
 #d2.north5 {
 background-color: #000 !important;
-background-image: url("https://f.top4top.io/p_2479s408e1.png");
+background-image: url("https://c.top4top.io/p_24803hci51.png");
 background-size: cover;
 }
 #settings.north5 {
-  background-image: url("https://f.top4top.io/p_2479s408e1.png");
+  background-image: url("https://c.top4top.io/p_24803hci51.png");
   background-size: cover;
 }
 #wall.north5 #d2bc {
-  background-image: url("https://f.top4top.io/p_2479s408e1.png");
+  background-image: url("https://c.top4top.io/p_24803hci51.png");
   background-size: cover;
 }
 #rooms.north5 {
-  background-image: url("https://f.top4top.io/p_2479s408e1.png");
+  background-image: url("https://c.top4top.io/p_24803hci51.png");
   background-size: cover;
 }
 #chats.north5 {
-  background-image: url("https://f.top4top.io/p_2479s408e1.png");
+  background-image: url("https://c.top4top.io/p_24803hci51.png");
   background-size: cover;
 }
 #settings.north6 .label-primary, .btn-primary, .bg-primary {background-color: #595959;}
