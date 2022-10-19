@@ -721,12 +721,10 @@ background-size: cover;
 }`);
                                 
                                 var r_mlok=false;setInterval(function (){if (myroom=='17ef32d2603xebed46b3-xfg0v0d'){if (r_mlok==false){r_mlok=true;
-								$('#rdark_mod3').addClass('mlok4');
 								$('#room, #d2, #d0, #rooms, #users, #wall, #dpnl, #settings, #chats, #mic #muteall').addClass('mlok5');
 								$('#room, #d2, #d0, #rooms, #users, #wall, #dpnl, #settings, #chats, #mic #muteall').addClass('mlok6');
 								$('#mic').addClass('mlok3')
 								}}else{if (r_mlok==true){r_mlok=false;
-								$("#rdark_mod3").removeClass('mlok4');
 								$("#room, #d2, #d0, #rooms, #users, #wall, #dpnl, #settings, #chats, #mic #muteall").removeClass('mlok5');
 								$("#room, #d2, #d0, #rooms, #users, #wall, #dpnl, #settings, #chats, #mic #muteall").removeClass('mlok6');
 								$('#mic').removeClass('mlok3')}}}, 10);
