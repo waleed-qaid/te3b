@@ -463,15 +463,15 @@ $(`<style>
 .nosel.d-flex.room.r18418dbadafx0e9f728xj2fy1e .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
 letter-spacing: 1px;
 -webkit-text-fill-color: #000;
-background-image: url(https://l.top4top.io/p_2491dm0111.png);
+background-image: url(https://f.top4top.io/p_2491du5762.png);
 border-radius: 15px 0px 15px 0px !important;
-box-shadow: inset 0 0 0 rgba(0,0,0,.08),0px 0px 4px #000;
+box-shadow: inset 0 0 0 rgba(0,0,0,.08),0px 0px 1px #000;
 }
 .nosel.d-flex.room.r18418dbadafx0e9f728xj2fy1e.bord {border-inline: 1px solid #acaeb3 !important;}
 .nosel.d-flex.room.r18418dbadafx0e9f728xj2fy1e {
 border-radius: 15px 0px 15px 0px;
 display: inline-block;
-background-image: url("https://l.top4top.io/p_24914m52r1.png") !important;
+background-image: url("https://e.top4top.io/p_2491qwgtu1.png") !important;
 }
 .nosel.d-flex.room.r18418dbadafx0e9f728xj2fy1e .dots.mini.u-msg {
 text-align: center;
@@ -563,32 +563,32 @@ box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff8181;}
 }
 #d2.kiom5 {
 background-color: #fafafa !important;
-background-image: url("https://b.top4top.io/p_2491hq2ht3.png");
+background-image: url("https://l.top4top.io/p_2491tyqm41.png");
 background-size: cover;
 }
 #settings.kiom5 {
-  background-image: url("https://b.top4top.io/p_2491hq2ht3.png");
+  background-image: url("https://l.top4top.io/p_2491tyqm41.png");
   background-size: cover;
 }
 #wall.kiom5 #d2bc {
-  background-image: url("https://b.top4top.io/p_2491hq2ht3.png");
+  background-image: url("https://l.top4top.io/p_2491tyqm41.png");
   background-size: cover;
   background-color: #fafafa !important;
 }
 #rooms.kiom5 {
-  background-image: url("https://b.top4top.io/p_2491hq2ht3.png");
+  background-image: url("https://l.top4top.io/p_2491tyqm41.png");
   background-size: cover;
   background-color: #fafafa !important;
 }
 #chats.kiom5 {
-  background-image: url("https://b.top4top.io/p_2491hq2ht3.png");
+  background-image: url("https://l.top4top.io/p_2491tyqm41.png");
   background-size: cover;
   background-color: #fafafa !important;
 }
 #users.kiom5 .uzr {
   background-color: #0000 !important;}
 #users.kiom5 {
-  background-image: url("https://b.top4top.io/p_2491hq2ht3.png") !important;
+  background-image: url("https://l.top4top.io/p_2491tyqm41.png") !important;
   background-size: cover;
   background-color: #fafafa !important;
 }
@@ -601,8 +601,12 @@ background-size:220% auto;
 display:inline-block}#users.kiom5 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
 #d2.kiom5 .uzr.d-flex.mm{
 border-radius: 15px 0px 15px 0px;
-border:1px solid #fffefe;
-border-bottom:1px solid #fffefe}`);
+border: 1px solid #fffefe;
+  border-bottom-color: rgb(255, 254, 254);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+border-bottom: 0px solid #fffefe !important;
+background-color: #faf0e600 !important;}`);
 var r_kiom = false;
 setInterval(function () {
     if (myroom == '18418dbadafx0e9f728xj2fy1e') {
