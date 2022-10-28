@@ -368,7 +368,7 @@ letter-spacing: 1px;
 background-image: url(https://a.top4top.io/p_2483u8q4f1.png);
 padding: 2px !important;
 border-radius: 0px 0px 10px 10px !important;
-}.nosel.d-flex.room.r17ef32d2603xebed46b3-xfg0v0d {background-color: #a2a2a2 !important;display: inline-block;border-radius: 0px 0px 10px 10px;background-image: url("https://k.top4top.io/p_2483mky381.png") !important;background-size: cover;background-size: 110% 80%;}
+}.nosel.d-flex.room.r17ef32d2603xebed46b3-xfg0v0d {background-color: #a2a2a2 !important;display: inline-block;border-radius: 0px 0px 10px 10px;background-image: url("https://k.top4top.io/p_2491h2klq1.gif") !important;background-size: cover;background-size: 110% 80%;}
 .nosel.d-flex.room.r17ef32d2603xebed46b3-xfg0v0d .dots.mini.u-msg{
 text-align: center;
 -webkit-text-fill-color: #ffc74100;
