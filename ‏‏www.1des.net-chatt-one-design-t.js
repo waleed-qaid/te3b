@@ -557,7 +557,7 @@ box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #ff8181;}
 }
 #d2.kiom5 {
 background-color: #fafafa !important;
-background-image: url("https://i.ibb.co/GkZjgrD/image.gif");
+background-image: url("https://i.ibb.co/9WMk447/43e17aa3c2ba523273401a7f7a130a8c.gif");
 background-size: cover;
 }
 #settings.kiom5 {
@@ -565,12 +565,12 @@ background-size: cover;
   background-size: cover;
 }
 #wall.kiom5 #d2bc {
-  background-image: url("https://i.ibb.co/GkZjgrD/image.gif");
+  background-image: url("https://i.ibb.co/9WMk447/43e17aa3c2ba523273401a7f7a130a8c.gif");
   background-size: cover;
   background-color: #fafafa !important;
 }
 #rooms.kiom5 {
-  background-image: url("https://i.ibb.co/GkZjgrD/image.gif");
+  background-image: url("https://i.ibb.co/9WMk447/43e17aa3c2ba523273401a7f7a130a8c.gif");
   background-size: cover;
   background-color: #fafafa !important;
 }
@@ -584,7 +584,7 @@ background-size: cover;
   color: black;
   }
 #users.kiom5 {
-  background-image: url("https://i.ibb.co/GkZjgrD/image.gif") !important;
+  background-image: url("https://i.ibb.co/9WMk447/43e17aa3c2ba523273401a7f7a130a8c.gif") !important;
   background-size: cover;
   background-color: #fafafa !important;
 }
