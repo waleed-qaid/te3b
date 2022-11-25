@@ -9,6 +9,9 @@ text-fill-color: transparent;
 -webkit-background-clip: text;
 -webkit-text-fill-color: #0000;
 }
+.nosel.d-flex.room.r180b31492f9x922d0131xn7fcg1 .c-flex {
+  margin-top: -10px;
+}
 .nosel.d-flex.room.r180b31492f9x922d0131xn7fcg1 {
   display: block;
   border-radius: 10px;
