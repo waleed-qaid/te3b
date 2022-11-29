@@ -10,8 +10,8 @@ $("style").last().append(`
 #users .uzr.stl1 .fitimg.u-pic {
   border-radius: 100px !important;
   margin-top: 7px !important;
-  height: 50px !important;
-  margin-left: -52px;
+  height: 60px !important;
+  margin-left: 12px;
   z-index: 0 !important;
 }
 #users .uzr.stl1 .d-flex.dots {
@@ -36,6 +36,7 @@ $("style").last().append(`
   min-height: 0% !important;
   margin-left: 10px;
   z-index: 0 !important;
+  display: none;
 }
 #users .uzr.stl1 span.uhash {
   margin-right: 324px;
@@ -67,8 +68,8 @@ $("style").last().append(`
 }
 #users .uzr.stl1 .My_star1 {
   width: 84px;
-  margin-top: -72px;
-  height: 72px;
+  margin-top: -74px;
+  height: 80px;
 }
 #users .uzr.stl1 .My_vedio1 {
   float: right;
