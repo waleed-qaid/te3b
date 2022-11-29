@@ -1,17 +1,9 @@
-
-
-
-
-
-
-
-
 $("style").last().append(`
 #users .uzr.stl1 .fitimg.u-pic {
   border-radius: 100px !important;
-  margin-top: 7px !important;
-  height: 60px !important;
-  margin-left: 12px;
+  margin-top: 9px !important;
+  height: 52px !important;
+  margin-left: 12px!important;
   z-index: 0 !important;
 }
 #users .uzr.stl1 .d-flex.dots {
