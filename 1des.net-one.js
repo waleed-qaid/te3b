@@ -208,9 +208,9 @@ margin-bottom: 7px;
   margin-left: 5px;
 }
 #users .uzr.stl3 .My_star3 {
-  width: 84px;
-  margin-top: -74px;
-  height: 80px;
+  width: 82px;
+  margin-top: -70px;
+  height: 75px;
 }
 #users .uzr.stl3 .My_vedio3 {
   float: right;
