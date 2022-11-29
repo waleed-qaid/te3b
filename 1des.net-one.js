@@ -143,11 +143,12 @@ $("style").last().append(`
   cursor: pointer;
 }
 #users .uzr.stl3 .fitimg.u-pic {
-  border-radius: 100px !important;
-  margin-top: 7px !important;
-  height: 50px !important;
-  margin-left: -52px;
-  z-index: 0 !important;
+border-radius: 100px !important;
+margin-top: 9px !important;
+height: 52px !important;
+margin-left: 12px !important;
+z-index: 0 !important;
+margin-bottom: 7px;
 }
 #users .uzr.stl3 .d-flex.dots {
   margin-top: 7px !important;
@@ -176,6 +177,7 @@ $("style").last().append(`
   min-height: 0% !important;
   margin-left: 10px;
   z-index: 0 !important;
+  display: none;
 }
 #users .uzr.stl3 span.uhash {
   margin-right: 324px;
@@ -207,8 +209,8 @@ $("style").last().append(`
 }
 #users .uzr.stl3 .My_star3 {
   width: 84px;
-  margin-top: -72px;
-  height: 72px;
+  margin-top: -74px;
+  height: 80px;
 }
 #users .uzr.stl3 .My_vedio3 {
   float: right;
