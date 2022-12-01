@@ -72,9 +72,9 @@ $("style").last().append(`
 }
 #users .uzr.stl2 .fitimg.u-pic {
   border-radius: 100px !important;
-  margin-top: 7px !important;
-  height: 50px !important;
-  margin-left: -52px;
+  margin-top: 9px !important;
+  height: 52px !important;
+  margin-left: 12px !important;
   z-index: 0 !important;
 }
 #users .uzr.stl2 .d-flex.dots {
@@ -82,16 +82,14 @@ $("style").last().append(`
   margin-left: 5px;
 }
 #users .uzr.stl2 .u-msg {
+  text-align: center;
+  -webkit-background-clip: text;
   padding: 1px !important;
   font-size: 89% !important;
-  animation: textclip 2s linear infinite;
-  background-image: url(https://i.ibb.co/N1j4sW5/61.gif);
-  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+  background-image: url(https://i.ibb.co/JzgnvW8/61.gif);
   color: transparent !important;
   background-size: 90% 100%;
-  max-height: 40px !important;
-  height: 40px;
-  text-align: center;
 }
 #users .uzr.stl2 .ustat {
   width: 54px !important;
@@ -101,6 +99,7 @@ $("style").last().append(`
   min-height: 0% !important;
   margin-left: 10px;
   z-index: 0 !important;
+  display: none;
 }
 #users .uzr.stl2 span.uhash {
   margin-right: 324px;
@@ -131,9 +130,10 @@ $("style").last().append(`
   margin-left: 5px;
 }
 #users .uzr.stl2 .My_star2 {
-  width: 84px;
-  margin-top: -72px;
+  width: 83px;
+  margin-top: -63px;
   height: 72px;
+  margin-left: 0px;
 }
 #users .uzr.stl2 .My_vedio2 {
   float: right;
