@@ -235,7 +235,7 @@ height: 60px !important;
 margin-left: 12px !important;
 z-index: 0 !important;
 margin-bottom: 15px;
-min-width: 52px;
+min-width: 60px;
 width: 60px;
 }
 #users .uzr.stl4 .d-flex.dots {
