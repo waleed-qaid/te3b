@@ -137,7 +137,7 @@ $(`<style>.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i.bord {border-inline:
 .nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i {
   display: block;
   border-radius: 5px;
-  background-image: url("https://i.ibb.co/d7QP7MS/333.gif");
+  background-image: url("https://i.ibb.co/Vg1vLbn/4444.gif");
 }
 .nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .d-flex.flex-grow-1 {
   display: inline-grid;
