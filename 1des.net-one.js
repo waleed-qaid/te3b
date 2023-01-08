@@ -136,8 +136,8 @@ $("style").last().append(`
   margin-left: 5px;
 }
 #users .uzr.stl2 .My_star2 {
-  width: 83px;
-  margin-top: -63px;
+  width: 82px;
+  margin-top: -61px;
   height: 72px;
   margin-left: 0px;
 }
