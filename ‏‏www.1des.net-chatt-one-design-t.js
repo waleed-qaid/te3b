@@ -106,9 +106,9 @@ setInterval(function () {
 
 
 var rid='18543ce0fdax4d7550d3-x-kykk5i';
-$("style:eq(0)").append(`#d2 .roomh[onclick="rjoin('${rid}')"]{background-image: linear-gradient(-225deg, #16202a 0%, #16202a 29%, #0ff 67%, #b7780000 100%);
+$("style:eq(0)").append(`#d2 .roomh[onclick="rjoin('${rid}')"]{background-image: linear-gradient(-225deg, #16202a 0%, #16202a 29%, #fff 67%, #b7780000 100%);
 background-size: 220% auto;animation: textclip 5s linear infinite;padding: 2px!important;border-radius: 50px !important;border: 1px solid #16202a0;}`);
-$("style:eq(0)").append(`#upro .roomh[onclick="rjoin('${rid}')"]{background-image: linear-gradient(-225deg, #16202a 0%, #16202a 29%, #0ff 67%, #b7780000 100%);
+$("style:eq(0)").append(`#upro .roomh[onclick="rjoin('${rid}')"]{background-image: linear-gradient(-225deg, #16202a 0%, #16202a 29%, #fff 67%, #b7780000 100%);
 background-size: 220% auto;
 animation: textclip 5s linear infinite;border-radius: 50px !important;border: 1px solid #16202a0;}`);
 $(`<style>.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i.bord {border-inline: 0px solid #16202a306 !important;}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i {border-radius: 0px 0px 15px 15px;display: inline-block;background-image: linear-gradient(-225deg, rgba(155, 93, 121, 0.23) 0%, rgba(255, 0, 143, 0) 29%, rgba(151, 101, 127, 0.04) 67%, rgba(200, 113, 152, 0.24) 100%);}
