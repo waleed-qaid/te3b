@@ -434,7 +434,7 @@ background-size: cover;
 #d2.t3eb5 {background-color: #fafafa;}
 #settings.t3eb5 .label-primary, .btn-primary, .bg-primary {background-color: #595959;}
 #d0.t3eb5 .label-primary, .btn-primary {background-color: #595959!important;}
-#rooms.t3eb5 .label-primary, .btn-primary {background-color: #595959!important;}
+
 #users.t3eb5 .tbox {background-color: #595959;}
 #room.t3eb5 #mic {background-color: #777;}
 #room.t3eb5 .break {background-color: #fafafa00;}
