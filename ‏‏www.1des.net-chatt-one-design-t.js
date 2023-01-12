@@ -88,20 +88,20 @@ display: block;
 text-align: center;
 }
 .nosel.d-flex.room.r17fdc8ef597x92764b87-x-mu6pwv .fitimg.u-pic.borderg {
-  border-radius: 100px;
-  border: 2px solid #5e351b;
+  border-radius: 100px !important;
+  border: 2px solid #5e351b !important;
   letter-spacing: 1px;
   background-size: 108% 108%;
   -webkit-text-fill-color: white;
   animation: grad 2s cubic-bezier(.445,.05,.55,.95) alternate infinite;
-display: block;
-margin-left: auto;
-margin-right: auto;
-min-width: 70px !important;
-width: 70px !important;
-min-height: 67px !important;
-max-height: 67px !important;
-margin-top: 9px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 70px !important;
+  width: 70px !important;
+  min-height: 67px !important;
+  max-height: 67px !important;
+  margin-top: 9px !important;
 }
 
 .nosel.d-flex.room.r17fdc8ef597x92764b87-x-mu6pwv .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
@@ -287,22 +287,22 @@ display: none;
   width: 100%;
 }
 .nosel.d-flex.room.r18330b950ffx9914ab32xqjvcmr .fitimg.u-pic.borderg {
-border-radius: 100px;
-border: 2px solid #fff;
-letter-spacing: 1px;
-background-size: 108% 108%;
--webkit-text-fill-color: white;
-animation: grad 2s cubic-bezier(.445,.05,.55,.95) alternate infinite;
-display: block;
-margin-left: auto;
-margin-right: auto;
-min-width: 70px !important;
-width: 70px !important;
-min-height: 67px !important;
-max-height: 67px !important;
-margin-top: 78px;
-margin-bottom: 8px;
-z-index: 0;
+  border-radius: 100px !important;
+  border: 2px solid #fff !important;
+  letter-spacing: 1px;
+  background-size: 108% 108%;
+  -webkit-text-fill-color: white;
+  animation: grad 2s cubic-bezier(.445,.05,.55,.95) alternate infinite;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 70px !important;
+  width: 70px !important;
+  min-height: 67px !important;
+  max-height: 67px !important;
+  margin-top: 78px !important;
+  margin-bottom: 8px;
+  z-index: 0;
 }
 .nosel.d-flex.room.r18330b950ffx9914ab32xqjvcmr .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
 letter-spacing: 1px;
