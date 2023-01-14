@@ -368,16 +368,5 @@ var _0x1224=["\u0645\u0632\u0627\u0627\u062C\u064A\u0647","\x77\x61\x6C","\x3C\x
 
 
 
-var l_itvaiah=setInterval(function(){
-    if(myid!=null){
-        clearInterval(l_itvaiah);
-        $("#users .uzr:contains('ا*+يه')").addClass('aiah1');
-        $("#users .uzr.aiah1 .c-flex.fr").append('<img class="aiah_star1" src="https://up6.cc/2023/01/167363426003531.gif">');
-		$("#users .uzr.aiah1 .c-flex.fr").append('<img class="aiah_tsor" src="https://up6.cc/2023/01/167362819432871.png">');
-		$("#users .uzr.aiah1 .c-flex.fr").after('<div id="aiah_mood1" class="label label-primary" style=" margin-bottom: -5px; display: inline-block;width: 100%;margin-top: 10px;height: 22px;cursor: pointer;border-radius: 50px;padding: 0px;"></div>');
-   
-        $("#users .uzr.aiah1 span.uhash, #users .uzr.aiah1 img.co").hide(); 
 
-    }
-}, 10000);
 
