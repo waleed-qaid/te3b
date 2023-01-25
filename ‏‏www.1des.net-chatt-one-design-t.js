@@ -1083,6 +1083,18 @@ height: 52px;
 border-radius: 50px;
 }
 
+.nosel.d-flex.room.r185cbc21274xf6bef8f1xghbz5e .corner.fa.fa-user.label.uc.label-primary {
+  letter-spacing: 1px;
+  -webkit-text-fill-color: #000;
+  border-radius: 15px 0px 15px 0px !important;
+  height: 27px;
+  margin-top: 15px !important;
+  margin-bottom: 0px !important;
+  background-color: #d9534f00 !important;
+  text-align: left !important;
+  margin-left: 50px !important;
+}
+
 #room.smooasd1 {
    background-color: white;
 }
