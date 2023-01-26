@@ -147,7 +147,7 @@ height: 52px;
 #users.jnoon1 img.co{border-radius: 0 10px 0 10px!important;transform:rotate(20deg);margin-top:2px!important}
 #users.jnoon1 .nosel.ninr.fl.uzr.label.bg {
     border-radius: 0 10px 0 10px!important;
-    background-color: #b2b2b2;
+    background-color: #dfdfdf;
 	color: #e7ba3a;
 	background-image: url(https://up6.cc/2023/01/167463273696361.png);
     background-size: cover;
@@ -156,7 +156,7 @@ height: 52px;
     border: 1px solid #e9e9e952 !important;
     border-radius: 0 10px 0 10px!important;
     background-image: url(https://up6.cc/2023/01/167463340050531.png);
-    color: #e7ba3a;
+    color: #dfdfdf;
 }
 #settings.jnoon1 .label-primary {
   border-radius: 0 10px 0 10px!important;
@@ -190,7 +190,7 @@ border-radius: 0 10px 0 10px!important;
     border: 1px solid #f1f1f1;
     background-image: url(https://up6.cc/2023/01/167463340050531.png);
     background-size: cover;
-    color: #e7ba3a;
+    color: #dfdfdf;
 }
 #d2.jnoon1{background-color:#fff !important;}
 #room.jnoon1 .tablebox.d-flex.footer.fl.light {
@@ -241,7 +241,7 @@ box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 4px rgb(0 0 0), 0 0 0 0px #000;
     border: 1px solid #f1f1f1;
     background-image: url(https://up6.cc/2023/01/167463340050531.png);
     background-size: cover;
-    color: #e7ba3a;
+    color: #dfdfdf;
 }
 .btn.btn-primary.u-nickc.fr.fa.fa-save.jnoon1 {
     border-radius: 0 10px 0 10px!important;
