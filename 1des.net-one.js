@@ -19,6 +19,7 @@ $("style").last().append(`
   background-image: url(https://i.ibb.co/JzgnvW8/61.gif);
   color: transparent !important;
   background-size: 90% 100%;
+  border-bottom: 1px solid #fff0;
 }
 #users .uzr.stl1 .ustat {
   width: 54px !important;
@@ -96,6 +97,7 @@ $("style").last().append(`
   background-image: url(https://i.ibb.co/JzgnvW8/61.gif);
   color: transparent !important;
   background-size: 90% 100%;
+  border-bottom: 1px solid #fff0;
 }
 #users .uzr.stl2 .ustat {
   width: 54px !important;
@@ -176,6 +178,7 @@ width: 60px;
   -webkit-background-clip: text;
   color: transparent !important;
   background-size: 90% 100%;
+  border-bottom: 1px solid #fff0;
 }
 #users .uzr.stl3 .ustat {
   width: 54px !important;
@@ -237,6 +240,7 @@ z-index: 0 !important;
 margin-bottom: 15px;
 min-width: 60px;
 width: 60px;
+
 }
 #users .uzr.stl4 .d-flex.dots {
   margin-top: 7px !important;
@@ -288,6 +292,7 @@ z-index: 0;
   background-image: url(https://i.ibb.co/JzgnvW8/61.gif);
   color: transparent !important;
   background-size: 90% 100%;
+  border-bottom: 1px solid #fff0;
 }
 #users .uzr.nor1 .ustat {
   width: 54px !important;
