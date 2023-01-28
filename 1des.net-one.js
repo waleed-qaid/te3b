@@ -293,6 +293,7 @@ z-index: 0;
   color: transparent !important;
   background-size: 90% 100%;
   border-bottom: 1px solid #fff0;
+  margin-left: 50px;
 }
 #users .uzr.nor1 .ustat {
   width: 54px !important;
@@ -334,7 +335,7 @@ z-index: 0;
 }
 #users .uzr.nor1 .nor_star1 {
   width: 84px;
-  margin-top: -66px;
+  margin-top: -73px;
   height: 80px;
 }
 #users .uzr.nor1 .nor_tsor {
