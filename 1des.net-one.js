@@ -335,7 +335,7 @@ z-index: 0;
 }
 #users .uzr.nor1 .nor_star1 {
   width: 84px;
-  margin-top: -73px;
+  margin-top: -67px;
   height: 80px;
 }
 #users .uzr.nor1 .nor_tsor {
