@@ -1173,7 +1173,7 @@ $(`<style>
   -webkit-text-fill-color: #e8a64d00;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 22px !important;
+  font-size: 18px !important;
   background-image: url(https://i.ibb.co/JzgnvW8/61.gif);
   -webkit-background-clip: text;
   color: transparent !important;
