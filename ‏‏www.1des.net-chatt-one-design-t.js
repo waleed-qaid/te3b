@@ -1311,6 +1311,7 @@ border-radius:  10px 0 10px!important;
     background-image: url(https://up6.cc/2023/02/16753376152961.png);
     background-size: cover;
     color: #484848;
+    font-size: 14px !important;
 }
 #d2.mshanaa1{background-color:#fff !important;}
 #room.mshanaa1 .tablebox.d-flex.footer.fl.light {
