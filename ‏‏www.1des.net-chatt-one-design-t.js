@@ -1153,7 +1153,7 @@ $(`<style>
 	background-size: 90% 100%;
 }
 .nosel.d-flex.room.r186121fe9a1x1f5a5f32x7iogsh {
-    background-image: url(https://up6.cc/2023/02/167536957016081.gif);
+    background-image: url(https://up6.cc/2023/02/167537572126611.gif);
     background-size: cover;
     border-radius: 15px 0px 15px 0px;
     display: inline-block;
