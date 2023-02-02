@@ -809,10 +809,9 @@ var _0x7e9c=["\x3C\x69\x6D\x67\x20\x69\x64\x3D\x22\x4D\x79\x5F\x69\x74\x61\x72\x
 
 var rid='185cbc21274xf6bef8f1xghbz5e';
 $("style:eq(0)").append(`#d2 .roomh[onclick="rjoin('${rid}')"]{background-image: linear-gradient(-225deg, #000 0%, #000 29%, #ff9200 67%, #3600ff 100%);
-background-size: 220% auto;animation: textclip 5s linear infinite;padding: 2px!important;border-radius: 50px !important;border: 1px solid #0000;}`);
+background-image: url(https://up6.cc/2023/01/167460813433221.png);background-size: cover;color: black;padding: 2px!important;border-radius: 50px !important;border: 1px solid #0000;}`);
 $("style:eq(0)").append(`#upro .roomh[onclick="rjoin('${rid}')"]{background-image: linear-gradient(-225deg, #000 0%, #000 29%, #ff9200 67%, #3600ff 100%);
-background-size: 220% auto;
-animation: textclip 5s linear infinite;border-radius: 50px !important;border: 1px solid #0000;}`);
+background-image: url(https://up6.cc/2023/01/167460813433221.png);background-size: cover;color: black;border-radius: 50px !important;border: 1px solid #0000;}`);
 
 
 $(`<style>
