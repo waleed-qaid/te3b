@@ -286,8 +286,6 @@ box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 10px rgb(0 0 0), 0 0 0 0px #000;
 
 #users.jnoon1 .inroom .fitimg.u-pic {
 border: 1px solid;
-animation: huerotate 2s infinite linear;
-filter: hue-rotate(360deg);
 box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 4px rgb(0 0 0), 0 0 0 0px #000;
 margin-top: 2px;
 margin-right: 2px;
