@@ -998,7 +998,7 @@ background-size: cover;
     border: 1px solid #ecdce4;
     background-color: #dddddd;
 }
-#upro.smooasd1 .light.fl.pro.break{background-image: url(https://up6.cc/2023/02/167538136447461.png);background-size: 100%;background-image: linear-gradient(225deg,#dfdfdf 0%,#f7f7f7 29%,#f4f4f4 67%,#dbdbdb 100%);}
+#upro.smooasd1 .light.fl.pro.break{background-image: linear-gradient(225deg,#dfdfdf 0%,#f7f7f7 29%,#f4f4f4 67%,#dbdbdb 100%);background-image: url(https://up6.cc/2023/02/167538136447461.png);background-size: 100%;}
 #mic.smooasd1 #muteall {
     border-radius: 50px;
     margin-top: 1px;
