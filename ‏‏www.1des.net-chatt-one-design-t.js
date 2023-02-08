@@ -832,16 +832,15 @@ $(`<style>
 }
 .nosel.d-flex.room.r185cbc21274xf6bef8f1xghbz5e.bord {border-inline: 0px solid #4c121e !important;}
 .nosel.d-flex.room.r185cbc21274xf6bef8f1xghbz5e .dots.mini.u-msg {
-    text-align: center;
-    -webkit-text-fill-color: #b1986200;
-    background-image: url(https://i.ibb.co/bB812zy/61.gif);
-    -webkit-background-clip: text;
-    color: transparent !important;
-    background-size: 100% 100%;
-	margin-top: 80px!important;
+  text-align: center;
+  -webkit-text-fill-color: #fff;
+  background-image: url(https://i.ibb.co/bB812zy/61.gif);
+  background-size: 100% 100%;
+  margin-top: 80px !important;
+  box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 6px #fff;
 }
 .nosel.d-flex.room.r185cbc21274xf6bef8f1xghbz5e {
-    background-image: url(https://up6.cc/2023/01/16746170722591.gif);
+    background-image: url(https://up6.cc/2023/02/167581354780311.gif);
     background-size: cover;
     border-radius: 10px 0 10px 0;
     display: inline-block;
@@ -878,12 +877,16 @@ $(`<style>
 
 $(`<style>#mic4 {margin-right: 8px !important;}
 #mic.smooasd1 .mic {
-    border: 0px solid;
-    animation: huerotate 2s infinite linear;
-    filter: hue-rotate(360deg);
-    box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 5px rgb(0 0 0), 0 0 0 0px #000000;
-    margin: 2px;
-    margin-top: 0px;
+  border: 2px solid;
+    border-bottom-color: currentcolor;
+  animation: huerotate 2s infinite linear;
+  filter: hue-rotate(360deg);
+  box-shadow: 0 0 0px rgb(0 0 0), inset 0 0 5px rgb(0 0 0), 0 0 0 0px #000000;
+  margin: 2px;
+    margin-top: 2px;
+  margin-top: 0px;
+  -webkit-background-clip: border-box;
+  border-bottom-color: bisque;
 }
 @keyframes huerotate {
     0% {
