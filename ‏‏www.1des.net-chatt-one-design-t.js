@@ -337,7 +337,22 @@ background-size: 220% auto;animation: textclip 5s linear infinite;padding: 2px!i
 $("style:eq(0)").append(`#upro .roomh[onclick="rjoin('${rid}')"]{background-image: linear-gradient(225deg,#c8c8c8 0%,#828282 29%,#aeaeae 67%,#e3e3e3 100%);
 background-size: 220% auto;
 animation: textclip 5s linear infinite;border-radius: 0px !important;border: 1px solid #16202a0;}`);
-$(`<style>.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i.bord{border-inline:0 solid #16202a306!important}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i{border-radius:0 0 15px 15px;display:inline-block;background-image:linear-gradient(-225deg,rgba(155,93,121,.23) 0%,rgba(255,0,143,0) 29%,rgba(151,101,127,.04) 67%,rgba(200,113,152,.24) 100%)}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .dots.mini.u-msg{display:block;padding:1px!important;font-size:89%!important;-webkit-text-fill-color:#ffffffd9;animation:textclip 2s linear infinite;background-image:url(https://up6.cc/2023/02/167538539024751.gif);-webkit-background-clip:text;color:transparent!important;background-size:90% 100%;margin-top:10px!important}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i{display:block;border-radius:5px;background-image:url(https://up6.cc/2023/02/167538488839281.gif);background-size:100%}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .d-flex.flex-grow-1{display:inline-grid;width:100%}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .corner.fa.fa-user.label.uc.fa-microphone.label-danger{letter-spacing:1px;-webkit-text-fill-color:#fff;padding:3px!important;border-radius:9px!important;background-color:#cdcddb00;z-index:1;margin-top:20px!important;margin-bottom:0px!important}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .fitimg.u-pic.borderg{border-radius:5px;border:1px solid #fff;letter-spacing:1px;background-size:108% 108%;-webkit-text-fill-color:#fff;animation:grad 2s cubic-bezier(.445,.05,.55,.95) alternate infinite;margin-top:2px}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .u-topic.dots{text-transform:uppercase;background-image:linear-gradient(-225deg,#16202a 0%,#16202a 29%,#ff1361 67%,#3600ff 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:textclip 2s linear infinite;display:none;text-align:center;font-size:18px!important}
+$(`<style>.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i.bord{border-inline:0 solid #16202a306!important}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i{border-radius:0 0 15px 15px;display:inline-block;background-image:linear-gradient(-225deg,rgba(155,93,121,.23) 0%,rgba(255,0,143,0) 29%,rgba(151,101,127,.04) 67%,rgba(200,113,152,.24) 100%)}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .dots.mini.u-msg{display:block;padding:1px!important;font-size:89%!important;-webkit-text-fill-color:#ffffffd9;animation:textclip 2s linear infinite;background-image:url(https://up6.cc/2023/02/167538539024751.gif);-webkit-background-clip:text;color:transparent!important;background-size:90% 100%;margin-top:10px!important}
+.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i{display:block;border-radius:5px;background-image:url(https://up6.cc/2023/02/167607647870961.png); background-size:100%}
+.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .d-flex.flex-grow-1{display:inline-grid;width:100%}
+.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .corner.fa.fa-user.label.uc.fa-microphone.label-danger{
+letter-spacing: 1px;
+-webkit-text-fill-color: #fff;
+padding: 3px !important;
+border-radius: 9px !important;
+background-color: #cdcddb00;
+z-index: 1;
+margin-top: 49px !important;
+margin-bottom: 53px !important;
+margin-left: 10px !important;
+}
+.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .fitimg.u-pic.borderg{display: none;border-radius:5px;border:1px solid #fff;letter-spacing:1px;background-size:108% 108%;-webkit-text-fill-color:#fff;animation:grad 2s cubic-bezier(.445,.05,.55,.95) alternate infinite;margin-top:2px}
+.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .u-topic.dots{text-transform:uppercase;background-image:linear-gradient(-225deg,#16202a 0%,#16202a 29%,#ff1361 67%,#3600ff 100%);background-size:220% auto;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:textclip 2s linear infinite;display:none;text-align:center;font-size:18px!important}
 @keyframes textclip {to {background-position: 200% center;}}</style>`).insertBefore('body');
 $(`<style>#mic4 {margin-right: 8px !important;}#mic.t3eb11 .mic {
   animation: 5s rotate linear infinite;
