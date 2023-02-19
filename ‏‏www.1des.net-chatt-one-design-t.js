@@ -410,7 +410,7 @@ border-radius: 10px !important
 #d2.t3eb11{
 background-color:#f2f2f2!important;
 background-image: url(https://up6.cc/2023/02/167680849289481.png);
-background-size: 100%;
+background-size: contain;
 }
 #room.t3eb11 .tablebox.d-flex.footer.fl.light{background-color:#bf968c}
 #upro.t3eb11 .light.fl.pro.break{
