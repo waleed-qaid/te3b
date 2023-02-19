@@ -325,287 +325,209 @@ var _0xba8b=["\x31\x38\x30\x62\x33\x31\x34\x39\x32\x66\x39\x78\x39\x32\x32\x64\x
 
 
 
-$("style").last().append(`
-
-canvas {
-  display: block;
-  position: absolute;
-  zindex: 1;
-  pointer-events: none;
+var _0xf19e=["\x0D\x0A\x0D\x0A\x63\x61\x6E\x76\x61\x73\x20\x7B\x0D\x0A\x20\x20\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x62\x6C\x6F\x63\x6B\x3B\x0D\x0A\x20\x20\x70\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x20\x61\x62\x73\x6F\x6C\x75\x74\x65\x3B\x0D\x0A\x20\x20\x7A\x69\x6E\x64\x65\x78\x3A\x20\x31\x3B\x0D\x0A\x20\x20\x70\x6F\x69\x6E\x74\x65\x72\x2D\x65\x76\x65\x6E\x74\x73\x3A\x20\x6E\x6F\x6E\x65\x3B\x0D\x0A\x7D\x0D\x0A\x0D\x0A\x23\x63\x6F\x6E\x74\x65\x6E\x74\x20\x7B\x0D\x0A\x20\x20\x74\x65\x78\x74\x2D\x61\x6C\x69\x67\x6E\x3A\x20\x63\x65\x6E\x74\x65\x72\x3B\x0D\x0A\x20\x20\x77\x69\x64\x74\x68\x3A\x20\x35\x30\x30\x70\x78\x3B\x0D\x0A\x20\x20\x68\x65\x69\x67\x68\x74\x3A\x20\x33\x30\x30\x70\x78\x3B\x0D\x0A\x20\x20\x70\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x20\x61\x62\x73\x6F\x6C\x75\x74\x65\x3B\x0D\x0A\x20\x20\x74\x6F\x70\x3A\x20\x35\x30\x25\x3B\x0D\x0A\x20\x20\x6C\x65\x66\x74\x3A\x20\x35\x30\x25\x3B\x0D\x0A\x20\x20\x6D\x61\x72\x67\x69\x6E\x2D\x6C\x65\x66\x74\x3A\x20\x2D\x32\x35\x30\x70\x78\x3B\x0D\x0A\x20\x20\x6D\x61\x72\x67\x69\x6E\x2D\x74\x6F\x70\x3A\x20\x2D\x31\x35\x30\x70\x78\x3B\x0D\x0A\x20\x20\x63\x6F\x6C\x6F\x72\x3A\x20\x73\x69\x6C\x76\x65\x72\x3B\x0D\x0A\x20\x20\x66\x6F\x6E\x74\x2D\x66\x61\x6D\x69\x6C\x79\x3A\x20\x76\x65\x72\x64\x61\x6E\x61\x3B\x0D\x0A\x20\x20\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x34\x35\x70\x78\x3B\x0D\x0A\x20\x20\x66\x6F\x6E\x74\x2D\x77\x65\x69\x67\x68\x74\x3A\x20\x62\x6F\x6C\x64\x3B\x0D\x0A\x7D\x0D\x0A\x0D\x0A","\x61\x70\x70\x65\x6E\x64","\x6C\x61\x73\x74","\x73\x74\x79\x6C\x65","\x31\x38\x35\x34\x33\x63\x65\x30\x66\x64\x61\x78\x34\x64\x37\x35\x35\x30\x64\x33\x2D\x78\x2D\x6B\x79\x6B\x6B\x35\x69","\x3C\x63\x61\x6E\x76\x61\x73\x20\x69\x64\x3D\x22\x63\x61\x6E\x76\x61\x73\x22\x3E\x3C\x2F\x63\x61\x6E\x76\x61\x73\x3E","\x2E\x62\x67","\x44\x6F\x64\x67\x65\x72\x42\x6C\x75\x65","\x4F\x6C\x69\x76\x65\x44\x72\x61\x62","\x47\x6F\x6C\x64","\x70\x69\x6E\x6B","\x53\x6C\x61\x74\x65\x42\x6C\x75\x65","\x6C\x69\x67\x68\x74\x62\x6C\x75\x65","\x56\x69\x6F\x6C\x65\x74","\x50\x61\x6C\x65\x47\x72\x65\x65\x6E","\x53\x74\x65\x65\x6C\x42\x6C\x75\x65","\x53\x61\x6E\x64\x79\x42\x72\x6F\x77\x6E","\x43\x68\x6F\x63\x6F\x6C\x61\x74\x65","\x43\x72\x69\x6D\x73\x6F\x6E","\x63\x6F\x6C\x6F\x72\x49\x6E\x63\x72\x65\x6D\x65\x6E\x74\x65\x72","\x63\x6F\x6C\x6F\x72\x49\x6E\x64\x65\x78","\x6C\x65\x6E\x67\x74\x68","\x63\x6F\x6C\x6F\x72\x4F\x70\x74\x69\x6F\x6E\x73","\x78","\x72\x61\x6E\x64\x6F\x6D","\x79","\x72","\x64","\x63\x6F\x6C\x6F\x72","\x74\x69\x6C\x74","\x66\x6C\x6F\x6F\x72","\x74\x69\x6C\x74\x41\x6E\x67\x6C\x65\x49\x6E\x63\x72\x65\x6D\x65\x6E\x74\x61\x6C","\x74\x69\x6C\x74\x41\x6E\x67\x6C\x65","\x64\x72\x61\x77","\x62\x65\x67\x69\x6E\x50\x61\x74\x68","\x6C\x69\x6E\x65\x57\x69\x64\x74\x68","\x73\x74\x72\x6F\x6B\x65\x53\x74\x79\x6C\x65","\x6D\x6F\x76\x65\x54\x6F","\x6C\x69\x6E\x65\x54\x6F","\x73\x74\x72\x6F\x6B\x65","\x69\x6E\x6E\x65\x72\x57\x69\x64\x74\x68","\x69\x6E\x6E\x65\x72\x48\x65\x69\x67\x68\x74","\x77\x69\x64\x74\x68","\x68\x65\x69\x67\x68\x74","\x72\x65\x73\x69\x7A\x65","\x72\x65\x61\x64\x79","\x63\x6C\x69\x63\x6B","\x23\x73\x74\x6F\x70\x42\x75\x74\x74\x6F\x6E","\x23\x73\x74\x61\x72\x74\x42\x75\x74\x74\x6F\x6E","\x63\x61\x6E\x76\x61\x73","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x32\x64","\x67\x65\x74\x43\x6F\x6E\x74\x65\x78\x74","\x67\x65\x74\x43\x6F\x6C\x6F\x72","\x70\x75\x73\x68","\x63\x6C\x65\x61\x72\x52\x65\x63\x74","\x73\x69\x6E","\x63\x6F\x73","\x72\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x46\x72\x61\x6D\x65","\x72\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x46\x72\x61\x6D\x65","\x77\x65\x62\x6B\x69\x74\x52\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x46\x72\x61\x6D\x65","\x6D\x6F\x7A\x52\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x46\x72\x61\x6D\x65","\x6F\x52\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x46\x72\x61\x6D\x65","\x6D\x73\x52\x65\x71\x75\x65\x73\x74\x41\x6E\x69\x6D\x61\x74\x69\x6F\x6E\x46\x72\x61\x6D\x65","\x73\x65\x74\x54\x69\x6D\x65\x6F\x75\x74","\x30\x70\x78","\x68\x69\x64\x65","\x66\x61\x64\x65\x4F\x75\x74","\x64\x65\x6C\x61\x79","\x23\x63\x61\x6E\x76\x61\x73","\x72\x65\x6D\x6F\x76\x65","\x23\x63\x61\x6E\x76\x61\x73\x2C\x20\x23\x63\x6F\x6E\x74\x65\x6E\x74","\x61\x6E\x69\x6D\x61\x74\x65","\x72\x6F\x6F\x68\x5F\x72\x6F\x79\x61\x6C","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73"];
+$(_0xf19e[3])[_0xf19e[2]]()[_0xf19e[1]](`${_0xf19e[0]}`);var r_rooh=false;
+setInterval(function()
+{
+	if(myroom== _0xf19e[4])
+	{
+		if(r_rooh== false)
+		{
+			r_rooh= true;$(_0xf19e[6])[_0xf19e[1]](_0xf19e[5]);(function()
+			{
+				var _0xc4cfx2;
+				var _0xc4cfx3;
+				var _0xc4cfx4;
+				var _0xc4cfx5;
+				var _0xc4cfx6=150;
+				var _0xc4cfx7=[];
+				var _0xc4cfx8=0;
+				var _0xc4cfx9=0;
+				var _0xc4cfxa=true;
+				var _0xc4cfxb=true;
+				var _0xc4cfxc;
+				var _0xc4cfxd;
+				var _0xc4cfxe;
+				var _0xc4cfxf={colorOptions:[_0xf19e[7],_0xf19e[8],_0xf19e[9],_0xf19e[10],_0xf19e[11],_0xf19e[12],_0xf19e[13],_0xf19e[14],_0xf19e[15],_0xf19e[16],_0xf19e[17],_0xf19e[18]],colorIndex:0,colorIncrementer:0,colorThreshold:10,getColor:function()
+				{
+					if(this[_0xf19e[19]]>= 10)
+					{
+						this[_0xf19e[19]]= 0;this[_0xf19e[20]]++;if(this[_0xf19e[20]]>= this[_0xf19e[22]][_0xf19e[21]])
+						{
+							this[_0xf19e[20]]= 0
+						}
+					}
+					this[_0xf19e[19]]++;return this[_0xf19e[22]][this[_0xf19e[20]]]
+				}
+				};
+				function _0xc4cfx10(_0xc4cfx11)
+				{
+					this[_0xf19e[23]]= Math[_0xf19e[24]]()* _0xc4cfx4;this[_0xf19e[25]]= (Math[_0xf19e[24]]()* _0xc4cfx5)- _0xc4cfx5;this[_0xf19e[26]]= _0xc4cfx1a(10,30);this[_0xf19e[27]]= (Math[_0xf19e[24]]()* _0xc4cfx6)+ 10;this[_0xf19e[28]]= _0xc4cfx11;this[_0xf19e[29]]= Math[_0xf19e[30]](Math[_0xf19e[24]]()* 10)- 10;this[_0xf19e[31]]= (Math[_0xf19e[24]]()* 0.07)+ 0.05;this[_0xf19e[32]]= 0;this[_0xf19e[33]]= function()
+					{
+						_0xc4cfx3[_0xf19e[34]]();_0xc4cfx3[_0xf19e[35]]= this[_0xf19e[26]]/ 2;_0xc4cfx3[_0xf19e[36]]= this[_0xf19e[28]];_0xc4cfx3[_0xf19e[37]](this[_0xf19e[23]]+ this[_0xf19e[29]]+ (this[_0xf19e[26]]/ 4),this[_0xf19e[25]]);_0xc4cfx3[_0xf19e[38]](this[_0xf19e[23]]+ this[_0xf19e[29]],this[_0xf19e[25]]+ this[_0xf19e[29]]+ (this[_0xf19e[26]]/ 4));return _0xc4cfx3[_0xf19e[39]]()
+					}
+				}
+				$(document)[_0xf19e[45]](function()
+				{
+					_0xc4cfx13();_0xc4cfx12();_0xc4cfx14();$(window)[_0xf19e[44]](function()
+					{
+						_0xc4cfx4= window[_0xf19e[40]];_0xc4cfx5= window[_0xf19e[41]];_0xc4cfx2[_0xf19e[42]]= _0xc4cfx4;_0xc4cfx2[_0xf19e[43]]= _0xc4cfx5
+					}
+					)
+				}
+				);function _0xc4cfx12()
+				{
+					$(_0xf19e[47])[_0xf19e[46]](_0xc4cfx2b);$(_0xf19e[48])[_0xf19e[46]](_0xc4cfx2d)
+				}
+				function _0xc4cfx13()
+				{
+					_0xc4cfx2= document[_0xf19e[50]](_0xf19e[49]);_0xc4cfx3= _0xc4cfx2[_0xf19e[52]](_0xf19e[51]);_0xc4cfx4= window[_0xf19e[40]];_0xc4cfx5= window[_0xf19e[41]];_0xc4cfx2[_0xf19e[42]]= _0xc4cfx4;_0xc4cfx2[_0xf19e[43]]= _0xc4cfx5
+				}
+				function _0xc4cfx14()
+				{
+					_0xc4cfx7= [];_0xc4cfxb= false;for(var _0xc4cfx15=0;_0xc4cfx15< _0xc4cfx6;_0xc4cfx15++)
+					{
+						var _0xc4cfx16=_0xc4cfxf[_0xf19e[53]]();
+						_0xc4cfx7[_0xf19e[54]]( new _0xc4cfx10(_0xc4cfx16))
+					}
+					_0xc4cfx28()
+				}
+				function _0xc4cfx17()
+				{
+					_0xc4cfx3[_0xf19e[55]](0,0,_0xc4cfx4,_0xc4cfx5);var _0xc4cfx18=[];
+					for(var _0xc4cfx15=0;_0xc4cfx15< _0xc4cfx6;_0xc4cfx15++)
+					{
+						(function(_0xc4cfx19)
+						{
+							_0xc4cfx18[_0xf19e[54]](_0xc4cfx7[_0xc4cfx19][_0xf19e[33]]())
+						}
+						)(_0xc4cfx15)
+					}
+					_0xc4cfx1d();return _0xc4cfx18
+				}
+				function _0xc4cfx1a(_0xc4cfx1b,_0xc4cfx1c)
+				{
+					return Math[_0xf19e[30]](Math[_0xf19e[24]]()* (_0xc4cfx1c- _0xc4cfx1b+ 1)+ _0xc4cfx1b)
+				}
+				function _0xc4cfx1d()
+				{
+					var _0xc4cfx1e=0;
+					var _0xc4cfx1f;
+					_0xc4cfx8+= 0.01;_0xc4cfx9+= 0.1;for(var _0xc4cfx15=0;_0xc4cfx15< _0xc4cfx6;_0xc4cfx15++)
+					{
+						_0xc4cfx1f= _0xc4cfx7[_0xc4cfx15];if(_0xc4cfxb)
+						{
+							return
+						}
+						if(!_0xc4cfxa&& _0xc4cfx1f[_0xf19e[25]]<  -15)
+						{
+							_0xc4cfx1f[_0xf19e[25]]= _0xc4cfx5+ 100;continue
+						}
+						_0xc4cfx22(_0xc4cfx1f,_0xc4cfx15);if(_0xc4cfx1f[_0xf19e[25]]<= _0xc4cfx5)
+						{
+							_0xc4cfx1e++
+						}
+						_0xc4cfx20(_0xc4cfx1f,_0xc4cfx15)
+					}
+					if(_0xc4cfx1e=== 0)
+					{
+						_0xc4cfx2c()
+					}
+				}
+				function _0xc4cfx20(_0xc4cfx1f,_0xc4cfx21)
+				{
+					if((_0xc4cfx1f[_0xf19e[23]]> _0xc4cfx4+ 20|| _0xc4cfx1f[_0xf19e[23]]<  -20|| _0xc4cfx1f[_0xf19e[25]]> _0xc4cfx5)&& _0xc4cfxa)
+					{
+						if(_0xc4cfx21% 5> 0|| _0xc4cfx21% 2== 0)
+						{
+							_0xc4cfx24(_0xc4cfx1f,Math[_0xf19e[24]]()* _0xc4cfx4,-10,Math[_0xf19e[30]](Math[_0xf19e[24]]()* 10)- 20)
+						}
+						else 
+						{
+							if(Math[_0xf19e[56]](_0xc4cfx8)> 0)
+							{
+								_0xc4cfx24(_0xc4cfx1f,-20,Math[_0xf19e[24]]()* _0xc4cfx5,Math[_0xf19e[30]](Math[_0xf19e[24]]()* 10)- 20)
+							}
+							else 
+							{
+								_0xc4cfx24(_0xc4cfx1f,_0xc4cfx4+ 20,Math[_0xf19e[24]]()* _0xc4cfx5,Math[_0xf19e[30]](Math[_0xf19e[24]]()* 10)- 20)
+							}
+						}
+					}
+				}
+				function _0xc4cfx22(_0xc4cfx1f,_0xc4cfx23)
+				{
+					_0xc4cfx1f[_0xf19e[32]]+= _0xc4cfx1f[_0xf19e[31]];_0xc4cfx1f[_0xf19e[25]]+= (Math[_0xf19e[57]](_0xc4cfx8+ _0xc4cfx1f[_0xf19e[27]])+ 3+ _0xc4cfx1f[_0xf19e[26]]/ 2)/ 2;_0xc4cfx1f[_0xf19e[23]]+= Math[_0xf19e[56]](_0xc4cfx8);_0xc4cfx1f[_0xf19e[29]]= (Math[_0xf19e[56]](_0xc4cfx1f[_0xf19e[32]]- (_0xc4cfx23/ 3)))* 15
+				}
+				function _0xc4cfx24(_0xc4cfx1f,_0xc4cfx25,_0xc4cfx26,_0xc4cfx27)
+				{
+					_0xc4cfx1f[_0xf19e[23]]= _0xc4cfx25;_0xc4cfx1f[_0xf19e[25]]= _0xc4cfx26;_0xc4cfx1f[_0xf19e[29]]= _0xc4cfx27
+				}
+				function _0xc4cfx28()
+				{
+					_0xc4cfx4= window[_0xf19e[40]];_0xc4cfx5= window[_0xf19e[41]];_0xc4cfx2[_0xf19e[42]]= _0xc4cfx4;_0xc4cfx2[_0xf19e[43]]= _0xc4cfx5;(function _0xc4cfx29()
+					{
+						if(_0xc4cfxb)
+						{
+							return null
+						}
+						_0xc4cfxe= requestAnimFrame(_0xc4cfx29);return _0xc4cfx17()
+					}
+					)()
+				}
+				function _0xc4cfx2a()
+				{
+					clearTimeout(_0xc4cfxd);clearTimeout(_0xc4cfxe)
+				}
+				function _0xc4cfx2b()
+				{
+					_0xc4cfxa= false;_0xc4cfx2a()
+				}
+				function _0xc4cfx2c()
+				{
+					_0xc4cfxb= true;if(_0xc4cfx3== undefined)
+					{
+						return
+					}
+					_0xc4cfx3[_0xf19e[55]](0,0,_0xc4cfx4,_0xc4cfx5)
+				}
+				function _0xc4cfx2d()
+				{
+					_0xc4cfx2a();_0xc4cfx2c();_0xc4cfxd= setTimeout(function()
+					{
+						_0xc4cfxa= true;_0xc4cfxb= false;_0xc4cfx14()
+					}
+					,100)
+				}
+				window[_0xf19e[58]]= (function()
+				{
+					return window[_0xf19e[59]]|| window[_0xf19e[60]]|| window[_0xf19e[61]]|| window[_0xf19e[62]]|| window[_0xf19e[63]]|| function(_0xc4cfx2e)
+					{
+						return window[_0xf19e[64]](_0xc4cfx2e,1000/ 60)
+					}
+				}
+				)()
+			}
+			)();$(_0xf19e[69])[_0xf19e[68]](2000)[_0xf19e[72]]({left:_0xf19e[65]},1000,function()
+			{
+				$(_0xf19e[69])[_0xf19e[68]](2000)[_0xf19e[72]]({left:_0xf19e[65]},500,function()
+				{
+					$(_0xf19e[69])[_0xf19e[68]](1000)[_0xf19e[67]]()[_0xf19e[66]]();$(_0xf19e[71])[_0xf19e[70]]()
+				}
+				)
+			}
+			)
+		}
+	}
+	else 
+	{
+		if(r_rooh== true)
+		{
+			r_rooh= false;$(_0xf19e[49])[_0xf19e[74]](_0xf19e[73])
+		}
+	}
 }
-
-#content {
-  text-align: center;
-  width: 500px;
-  height: 300px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: silver;
-  font-family: verdana;
-  font-size: 45px;
-  font-weight: bold;
-}
-
-`);
-
-
-var r_rooh = false;
-setInterval(function () {
-    if (myroom == '18652f90b85x6de8bbd6-x-f807y2') {
-        if (r_rooh == false) {
-            r_rooh = true;	
-$(".bg").append('<canvas id="canvas"></canvas>');
-(function () {
-    // globals
-    var canvas;
-    var ctx;
-    var W;
-    var H;
-    var mp = 150; //max particles
-    var particles = [];
-    var angle = 0;
-    var tiltAngle = 0;
-    var confettiActive = true;
-    var animationComplete = true;
-    var deactivationTimerHandler;
-    var reactivationTimerHandler;
-    var animationHandler;
-
-    // objects
-
-    var particleColors = {
-        colorOptions: ["DodgerBlue", "OliveDrab", "Gold", "pink", "SlateBlue", "lightblue", "Violet", "PaleGreen", "SteelBlue", "SandyBrown", "Chocolate", "Crimson"],
-        colorIndex: 0,
-        colorIncrementer: 0,
-        colorThreshold: 10,
-        getColor: function () {
-            if (this.colorIncrementer >= 10) {
-                this.colorIncrementer = 0;
-                this.colorIndex++;
-                if (this.colorIndex >= this.colorOptions.length) {
-                    this.colorIndex = 0;
-                }
-            }
-            this.colorIncrementer++;
-            return this.colorOptions[this.colorIndex];
-        }
-    }
-
-    function confettiParticle(color) {
-        this.x = Math.random() * W; // x-coordinate
-        this.y = (Math.random() * H) - H; //y-coordinate
-        this.r = RandomFromTo(10, 30); //radius;
-        this.d = (Math.random() * mp) + 10; //density;
-        this.color = color;
-        this.tilt = Math.floor(Math.random() * 10) - 10;
-        this.tiltAngleIncremental = (Math.random() * 0.07) + .05;
-        this.tiltAngle = 0;
-
-        this.draw = function () {
-            ctx.beginPath();
-            ctx.lineWidth = this.r / 2;
-            ctx.strokeStyle = this.color;
-            ctx.moveTo(this.x + this.tilt + (this.r / 4), this.y);
-            ctx.lineTo(this.x + this.tilt, this.y + this.tilt + (this.r / 4));
-            return ctx.stroke();
-        }
-    }
-
-    $(document).ready(function () {
-        SetGlobals();
-        InitializeButton();
-        InitializeConfetti();
-
-        $(window).resize(function () {
-            W = window.innerWidth;
-            H = window.innerHeight;
-            canvas.width = W;
-            canvas.height = H;
-        });
-
-    });
-
-    function InitializeButton() {
-        $('#stopButton').click(DeactivateConfetti);
-        $('#startButton').click(RestartConfetti);
-    }
-
-    function SetGlobals() {
-        canvas = document.getElementById("canvas");
-        ctx = canvas.getContext("2d");
-        W = window.innerWidth;
-        H = window.innerHeight;
-        canvas.width = W;
-        canvas.height = H;
-    }
-
-    function InitializeConfetti() {
-        particles = [];
-        animationComplete = false;
-        for (var i = 0; i < mp; i++) {
-            var particleColor = particleColors.getColor();
-            particles.push(new confettiParticle(particleColor));
-        }
-        StartConfetti();
-    }
-
-    function Draw() {
-        ctx.clearRect(0, 0, W, H);
-        var results = [];
-        for (var i = 0; i < mp; i++) {
-            (function (j) {
-                results.push(particles[j].draw());
-            })(i);
-        }
-        Update();
-
-        return results;
-    }
-
-    function RandomFromTo(from, to) {
-        return Math.floor(Math.random() * (to - from + 1) + from);
-    }
-
-
-    function Update() {
-        var remainingFlakes = 0;
-        var particle;
-        angle += 0.01;
-        tiltAngle += 0.1;
-
-        for (var i = 0; i < mp; i++) {
-            particle = particles[i];
-            if (animationComplete) return;
-
-            if (!confettiActive && particle.y < -15) {
-                particle.y = H + 100;
-                continue;
-            }
-
-            stepParticle(particle, i);
-
-            if (particle.y <= H) {
-                remainingFlakes++;
-            }
-            CheckForReposition(particle, i);
-        }
-
-        if (remainingFlakes === 0) {
-            StopConfetti();
-        }
-    }
-
-    function CheckForReposition(particle, index) {
-        if ((particle.x > W + 20 || particle.x < -20 || particle.y > H) && confettiActive) {
-            if (index % 5 > 0 || index % 2 == 0) //66.67% of the flakes
-            {
-                repositionParticle(particle, Math.random() * W, -10, Math.floor(Math.random() * 10) - 20);
-            } else {
-                if (Math.sin(angle) > 0) {
-                    //Enter from the left
-                    repositionParticle(particle, -20, Math.random() * H, Math.floor(Math.random() * 10) - 20);
-                } else {
-                    //Enter from the right
-                    repositionParticle(particle, W + 20, Math.random() * H, Math.floor(Math.random() * 10) - 20);
-                }
-            }
-        }
-    }
-    function stepParticle(particle, particleIndex) {
-        particle.tiltAngle += particle.tiltAngleIncremental;
-        particle.y += (Math.cos(angle + particle.d) + 3 + particle.r / 2) / 2;
-        particle.x += Math.sin(angle);
-        particle.tilt = (Math.sin(particle.tiltAngle - (particleIndex / 3))) * 15;
-    }
-
-    function repositionParticle(particle, xCoordinate, yCoordinate, tilt) {
-        particle.x = xCoordinate;
-        particle.y = yCoordinate;
-        particle.tilt = tilt;
-    }
-
-    function StartConfetti() {
-        W = window.innerWidth;
-        H = window.innerHeight;
-        canvas.width = W;
-        canvas.height = H;
-        (function animloop() {
-            if (animationComplete) return null;
-            animationHandler = requestAnimFrame(animloop);
-            return Draw();
-        })();
-    }
-
-    function ClearTimers() {
-        clearTimeout(reactivationTimerHandler);
-        clearTimeout(animationHandler);
-    }
-
-    function DeactivateConfetti() {
-        confettiActive = false;
-        ClearTimers();
-    }
-
-    function StopConfetti() {
-        animationComplete = true;
-        if (ctx == undefined) return;
-        ctx.clearRect(0, 0, W, H);
-    }
-
-    function RestartConfetti() {
-        ClearTimers();
-        StopConfetti();
-        reactivationTimerHandler = setTimeout(function () {
-            confettiActive = true;
-            animationComplete = false;
-            InitializeConfetti();
-        }, 100);
-
-    }
-
-    window.requestAnimFrame = (function () {
-        return window.requestAnimationFrame || 
-        window.webkitRequestAnimationFrame || 
-        window.mozRequestAnimationFrame || 
-        window.oRequestAnimationFrame || 
-        window.msRequestAnimationFrame || 
-        function (callback) {
-            return window.setTimeout(callback, 1000 / 60);
-        };
-    })();
-})();
-
-
-		
-$("#canvas").delay(2000).animate({
-
-left: '0px'
-
-}, 1000, function () {
-
-$("#canvas").delay(2000).animate({
-
-left: '0px'
-
-}, 500, function () {
-
-$("#canvas").delay(1000).fadeOut().hide();
-$("#canvas").remove();
-});
-
-});
-
-        }
-    } else {
-        if (r_rooh == true) {
-            r_rooh = false;
-            $("canvas").removeClass('rooh_royal');
-        } 
-    } 
-}, 1000);
-
-
+,1000)
 
 
 
@@ -687,7 +609,7 @@ border-radius: 10px !important
 #settings.t3eb11 .label-primary{border-radius: 10px !important;background-color:#9d8980!important;background-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%)}#settings.t3eb11 .btn-primary{background-color:#9d8980!important;background-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%);border-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%) 1}#settings.t3eb11 .bg-primary{background-color:#9d8980!important}#d0.t3eb11 .btn-primary{background-color:#9d8980!important}#users.t3eb11 .tbox{border-radius: 10px !important;background-color:#9d8980;background-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%)}#room.t3eb11 #mic{background-color:#979797;background-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%)}#d2.t3eb11 .d-flex.fr{background-color:#9d8980!important}#d0.t3eb11 .nosel.fl .bg{background-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%)}#d0.t3eb11 .bg-primary{background-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%)}#d2.t3eb11 .label-primary{background-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%)}#room.t3eb11 .btn-primary{background-color:#9d9d9d!important;background-image:linear-gradient(225deg,#b4786b 0%,#936b5f 29%,#8d5a49 67%,#b4786b 100%);border-radius: 10px !important;border:1px solid #bbb}
 #d2.t3eb11{
 background-color:#f2f2f2!important;
-background-image: url(https://up6.cc/2023/02/167681382197171.png);
+
 background-size: contain;
 }
 #room.t3eb11 .tablebox.d-flex.footer.fl.light{background-color:#bf968c}
