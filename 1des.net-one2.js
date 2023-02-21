@@ -185,7 +185,7 @@ $("style").last().append(`
   color: transparent !important;
   background-size: 90% 100%;
   border-bottom: 1px solid #fff0;
-    margin-bottom: 13px;
+    margin-bottom: 7px;
 }
 #users .uzr.abd_net1 .ustat {
   width: 54px !important;
@@ -260,7 +260,7 @@ $("style").last().append(`
   color: transparent !important;
   background-size: 90% 100%;
   border-bottom: 1px solid #fff0;
-    margin-bottom: 13px;
+    margin-bottom: 7px;
 }
 #users .uzr.abd_net2 .ustat {
   width: 54px !important;
