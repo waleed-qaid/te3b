@@ -1,4 +1,4 @@
-﻿
+
 $(`<style>
 .nosel.d-flex.room.r17ef32d2603xebed46b3-xfg0v0d .fitimg.u-pic.borderg {
   letter-spacing: 1px;
@@ -11,7 +11,7 @@ $(`<style>
   -webkit-text-fill-color: #fff;
   border-radius: 15px 0px 15px 0px !important;
   height: 27px;
-  margin-top: 34px !important;
+  margin-top: 12px !important;
   margin-bottom: 0px !important;
   background-color: #d9534f00;
 }
