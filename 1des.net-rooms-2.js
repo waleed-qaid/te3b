@@ -1,4 +1,4 @@
-﻿$(`<style>
+$(`<style>
 .nosel.d-flex.room.r18652fd31e3x28a386d5-x-mnyv3m .fitimg.u-pic.borderg {
   letter-spacing: 1px;
   background-size: 108% 108%;
@@ -10,7 +10,7 @@
   -webkit-text-fill-color: #fecf5f;
   border-radius: 15px 0px 15px 0px !important;
   height: 27px;
-  margin-top: 34px !important;
+  margin-top: 12px !important;
   margin-bottom: 0px !important;
   background-color: #d9534f00;
   margin-left: 45px !important;
