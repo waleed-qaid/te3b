@@ -316,6 +316,8 @@ input.jnoon1 {
   border-radius: 0 10px 0 10px!important;
 }
 
+
+
 #inrom_1des_18652fd31e3x28a386d5-x-mnyv3m {
 height: 25px;
 position: relative;
@@ -332,7 +334,7 @@ margin-left: 0px;
   height: 25px;
   position: relative;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-right: 20px;
   border: 1px solid #000000a3;
   border-radius: 15px 0 15px 0;
@@ -344,6 +346,33 @@ margin-left: 0px;
   margin-top: 14px;
 }
 
+
+#inrom_1des_18652fd31e3x28a386d5-x-mnyv3m {
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-right: 100px;
+  border: 1px solid #9c7cb6a3;
+  border-radius: 15px 0 15px 0;
+  background-color: #9b7eb354;
+  margin-left: 0px;
+}
+
+
+.nosel.d-flex.room.r18652fd31e3x28a386d5-x-mnyv3m .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
+  letter-spacing: 1px;
+  -webkit-text-fill-color: #f0aa46;
+  border-radius: 15px 0px 15px 0px !important;
+  height: 27px;
+  margin-top: 7px !important;
+  margin-bottom: 0px !important;
+  background-color: #d9534f00;
+  margin-left: 45px !important;
+  text-align: left !important;
+}
+
+
 .nosel.d-flex.room.r18652fcbd46x63705fe5-x-ec2mnv .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
   letter-spacing: 1px;
   -webkit-text-fill-color: #fecf5f;
@@ -353,6 +382,30 @@ margin-left: 0px;
   margin-bottom: 0px !important;
   background-color: #d9534f00;
 }
+
+.nosel.d-flex.room.r18652fa0021xc1c1c8a6-x2vd2m6 .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
+  letter-spacing: 1px;
+  -webkit-text-fill-color: #000000;
+  border-radius: 15px 0px 15px 0px !important;
+  height: 27px;
+  margin-top: 2px !important;
+  margin-bottom: 0px !important;
+  background-color: #d9534f00;
+  text-align: left !important;
+  margin-left: 50px !important;
+}
+
+.nosel.d-flex.room.r18652fa0021xc1c1c8a6-x2vd2m6 .dots.mini.u-msg {
+  text-align: center;
+  -webkit-text-fill-color: #b1986200;
+  background-image: url(https://i.ibb.co/bB812zy/61.gif);
+  -webkit-background-clip: text;
+  color: transparent !important;
+  background-size: 100% 100%;
+  margin-top: 65px !important;
+}
+
+
 
 .tc.jnoon1 {
   border-radius: 0 10px 0 10px!important;
