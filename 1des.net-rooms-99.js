@@ -315,6 +315,45 @@ input.jnoon1 {
 .dots.jnoon1 {
   border-radius: 0 10px 0 10px!important;
 }
+
+#inrom_1des_18652fd31e3x28a386d5-x-mnyv3m {
+height: 25px;
+position: relative;
+overflow: hidden;
+margin-top: 20px;
+margin-right: 100px;
+border: 1px solid #9c7cb6a3;
+border-radius: 15px 0 15px 0;
+background-color: #9b7eb354;
+margin-left: 0px;
+}
+
+#inrom_1des_18652fa0021xc1c1c8a6-x2vd2m6 {
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 1px solid #000000a3;
+  border-radius: 15px 0 15px 0;
+  background-color: #3c3c3c54;
+  margin-left: 0px;
+}
+
+#mic.smooasd1 .mic .mic_room_num {
+  margin-top: 14px;
+}
+
+.nosel.d-flex.room.r18652fcbd46x63705fe5-x-ec2mnv .corner.fa.fa-user.label.uc.fa-microphone.label-danger {
+  letter-spacing: 1px;
+  -webkit-text-fill-color: #fecf5f;
+  border-radius: 15px 0px 15px 0px !important;
+  height: 27px;
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+  background-color: #d9534f00;
+}
+
 .tc.jnoon1 {
   border-radius: 0 10px 0 10px!important;
   border: 1px solid #ecdce4;
