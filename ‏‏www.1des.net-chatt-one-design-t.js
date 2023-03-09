@@ -531,7 +531,7 @@ $("style").last().append(` #upro.t3eb11 .border {
     }
 
     #d2.t3eb11 {
-        background-color:#c0c2c7!important
+        background-color: #ffffff!important;
     }
 
     #room.t3eb11 .tablebox.d-flex.footer.fl.light {
