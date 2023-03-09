@@ -335,11 +335,11 @@ $(`<style>.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i.bord{border-inline:0
 .nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i{border-radius:0 0 15px 15px;display:inline-block;background-image:linear-gradient(-225deg,rgba(155,93,121,.23) 0%,rgba(255,0,143,0) 29%,rgba(151,101,127,.04) 67%,rgba(200,113,152,.24) 100%)}.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .dots.mini.u-msg{display:block;padding:1px!important;font-size:89%!important;-webkit-text-fill-color:#ffffffd9;animation:textclip 2s linear infinite;background-image:url(https://up6.cc/2023/02/167538539024751.gif);-webkit-background-clip:text;color:transparent!important;background-size:90% 100%;margin-top:10px!important}
 .nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i{
 display: inline-block;
-border-radius: 5px;
-background-image: url(https://up6.cc/2023/02/167680369283971.png);
-background-size: 100%;
-height: 135px;
-padding: 5px !important;
+    border-radius: 5px;
+    background-image: url(https://up6.cc/2023/03/167830968807421.png);
+    background-size: 100%;
+    height: 180px;
+    padding: 50px !important;
 
 }
 .nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i .d-flex.flex-grow-1{display:inline-grid;width:100%}
