@@ -421,7 +421,7 @@ $("style").last().append(` #upro.t3eb11 .border {
     }
 
     #d2.t3eb11 .uzr.d-flex.mm.pmsgc {
-        background-color:#e1e1e1 !important
+        background-color: #b2b2b2 !important;
     }
 
     #dpnl.t3eb11 {
