@@ -1516,7 +1516,7 @@ box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.08), 0px 0 5px #fff;
 border-radius: 15px;
 }
 .nosel.d-flex.room.r186a0eb1751x05bc9ec5-x-mvjfyj {
-    background-image: url(https://up6.cc/2023/03/167859061401921.gif);
+    background-image: url(https://up6.cc/2023/03/167903469877061.gif);
     background-size: cover;
     border-radius: 15px 0px 15px 0px;
     display: inline-block;
