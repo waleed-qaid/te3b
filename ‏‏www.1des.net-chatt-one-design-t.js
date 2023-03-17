@@ -460,7 +460,7 @@ $("style").last().append(` #upro.t3eb11 .border {
     /* border-image: linear-gradient(225deg, #646464 0%, #828282 29%, #fdfdfd 67%, #4a4a4a 100%) 1 !important; */    }
 
     #upro.t3eb11 .borderg {
-        color: white;
+        color: white!important;
         border: 1px solid #f4f4f4;
         border-image-outset: 0;
         border-image-repeat: stretch;
