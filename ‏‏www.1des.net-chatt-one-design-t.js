@@ -37,7 +37,7 @@ dots.mini.u-msg {
   float: right;
 }
 .nosel.d-flex.room.r186fabbf8c4x9f2a9cb1-x-2hnd7f {
-    background-image: url(https://up6.cc/2023/03/167924218471871.gif);
+    background-image: url(https://up6.cc/2023/03/167924771855421.gif);
     background-size: cover;
     border-radius: 15px 0px 15px 0px;
     display: inline-block;
