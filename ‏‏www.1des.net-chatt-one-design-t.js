@@ -50,11 +50,11 @@ $(`<style>.nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i.bord {
         margin-top: 10px!important;    }
 
     .nosel.d-flex.room.r18543ce0fdax4d7550d3-x-kykk5i {
-    display: inline-block;
+display: inline-block;
     border-radius: 5px;
-    background-image: url(https://up6.cc/2023/03/167977324035381.png);
+    background-image: url(https://up6.cc/2023/03/167978688523631.png);
     background-size: 100%;
-    height: 190px;
+    height: 180px;
     padding: 50px !important;
     }
 
