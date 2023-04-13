@@ -1,4 +1,3 @@
-$('<a href="https://user.1des.net/" target="_blank" class="border btn mini btn-success hand fl" style="background-color: crimson;padding:6px;width: 98%;margin-left:3px;margin-top: 2px;margin-bottom: 4px;"><span class="fl fa fa-edit"></span>صمم عضويتك بنفسك</a>').insertBefore('#zoom');
 
 
 var rid='186fabbf8c4x9f2a9cb1-x-2hnd7f';
